@@ -1,0 +1,98 @@
+[data-id='contact'] {
+  background-color: $pink;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+
+  aside {
+    background-image: url('/assets/img/contact.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    order: 1;
+    width: 50vw;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 0;
+    padding: 100px;
+    width: 50vw;
+
+    h2 {
+      font-family: 'Yellowtail', cursive;
+      font-size: 60px;
+      line-height: 1;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      position: relative;
+
+      &::after {
+        background-color: #fff;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 3px;
+        left: 0;
+        position: absolute;
+        width: 30px;
+      }
+    }
+
+    label {
+      font-size: 18px;
+
+      span {
+        color: #f00;
+      }
+    }
+
+    input {
+      border: 0;
+      height: 40px;
+      line-height: 40px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    [type='checkbox'] {
+      height: 30px;
+      margin: 0 10px 0 0;
+      width: 30px;
+    }
+
+    textarea {
+      border: 0;
+      height: 150px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      padding: 10px;
+      width: 100%;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+
+      [type='submit'] {
+        background-color: #fff;
+        border: 0;
+        border-radius: 5px;
+        color: $pink;
+        cursor: pointer;
+        line-height: 1;
+        margin: 0;
+        padding: 10px 20px;
+        text-decoration: none;
+        width: auto;
+      }
+
+      .ajax-loader {
+        display: none;
+      }
+    }
+  }
+}

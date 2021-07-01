@@ -1,0 +1,63 @@
+[data-id='about'] {
+  background: $brand;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+
+  aside {
+    background-image: url('/assets/img/about.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    order: 1;
+    width: 50vw;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 0;
+    padding: 100px;
+    width: 50vw;
+
+    h2 {
+      font-family: 'Yellowtail', cursive;
+      font-size: 60px;
+      line-height: 1;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      position: relative;
+
+      &::after {
+        background-color: $brand;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 3px;
+        left: 0;
+        position: absolute;
+        width: 30px;
+      }
+    }
+
+    p {
+      font-weight: 400;
+      margin-bottom: 50px;
+
+      &:first-of-type {
+        font-size: 25px;
+      }
+    }
+
+    .button {
+      align-self: flex-start;
+      background-color: #fff;
+      border-radius: 5px;
+      color: $brand;
+      line-height: 1;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+  }
+}

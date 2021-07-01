@@ -1,0 +1,95 @@
+[data-id='services'] {
+  display: flex;
+  height: 100vh;
+
+  aside {
+    background-image: url('/assets/img/services.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 50vw;
+  }
+
+  article {
+    color: $brand;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    width: 50vw;
+
+    h2 {
+      font-family: 'Yellowtail', cursive;
+      font-size: 60px;
+      line-height: 1;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      position: relative;
+
+      &::after {
+        background-color: $brand;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 3px;
+        left: 0;
+        position: absolute;
+        width: 30px;
+      }
+    }
+
+    p {
+      font-size: 25px;
+      font-weight: 400;
+      margin-bottom: 50px;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      align-items: center;
+      display: inline-flex;
+      flex-direction: column;
+      list-style: none;
+      margin-bottom: 100px;
+      position: relative;
+      width: 45%;
+
+      &:nth-child(-n + 2) {
+        &::after {
+          background-color: $brand;
+          bottom: -50px;
+          content: '';
+          display: block;
+          height: 3px;
+          left: 50%;
+          position: absolute;
+          transform: translateX(-50%);
+          width: 15%;
+        }
+      }
+
+      i {
+        font-size: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        margin: 0;
+      }
+    }
+  }
+}

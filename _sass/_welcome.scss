@@ -1,0 +1,59 @@
+[data-id='welcome'] {
+  clear: both;
+  display: flex;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+
+  aside {
+    background-image: url('/assets/img/welcome.jpg');
+    background-position: right center;
+    background-size: cover;
+    height: 100%;
+    width: 50vw;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    width: 50vw;
+
+    h2 {
+      font-family: 'Yellowtail', cursive;
+      font-size: 60px;
+      line-height: 1;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      position: relative;
+
+      &::after {
+        background-color: #000;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 3px;
+        left: 0;
+        position: absolute;
+        width: 30px;
+      }
+    }
+
+    p {
+      font-size: 25px;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      align-self: flex-start;
+      background-color: $brand;
+      border-radius: 5px;
+      color: #fff;
+      line-height: 1;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+  }
+}
