@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "workbox": "workbox"
+  },
+  "devDependencies": {
+    "workbox-cli": "^6.1.5"
+  }
+}

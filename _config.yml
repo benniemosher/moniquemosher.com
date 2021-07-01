@@ -13,16 +13,6 @@ plugins:
 
 date_format: "%b %-d, %Y"
 
-jekyll-archives:
-  enabled: all
-  layout: archive
-  permalinks:
-    year: "/:year/"
-    month: "/:year/:month/"
-    day: "/:year/:month/:day/"
-    tag: "/tag/:name/"
-    category: "/category/:name/"
-
 jekyll-minifier:
   uglifier_args:
     harmony: true
