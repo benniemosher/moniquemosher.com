@@ -1,6 +1,9 @@
 sections:
   - name: Welcome
-    link: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a felis
-      hendrerit, viverra dolor eget, varius est. Nulla lacus felis, porta et
-      velit vitae, facilisis lobortis diam. Cras sapien mauris, pharetra ac
-      dolor ut, pretium euismod enim.
+    data: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a felis hendrerit, viverra dolor eget, varius est. Nulla lacus felis, porta et velit vitae, facilisis lobortis diam. Cras sapien mauris, pharetra ac dolor ut, pretium euismod enim."
+  - name: About
+    data: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a felis hendrerit, viverra dolor eget, varius est. Nulla lacus felis, porta et velit vitae, facilisis lobortis diam. Cras sapien mauris, pharetra ac dolor ut, pretium euismod enim."
+  - name: Services
+    data: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a felis hendrerit, viverra dolor eget, varius est. Nulla lacus felis, porta et velit vitae, facilisis lobortis diam. Cras sapien mauris, pharetra ac dolor ut, pretium euismod enim."
+  - name: Contact
+    data: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a felis hendrerit, viverra dolor eget, varius est. Nulla lacus felis, porta et velit vitae, facilisis lobortis diam. Cras sapien mauris, pharetra ac dolor ut, pretium euismod enim."

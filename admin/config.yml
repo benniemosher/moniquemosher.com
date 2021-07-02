@@ -32,3 +32,19 @@ collections:
         }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Home"
+        name: "home"
+        file: "_data/home.yml"
+        fields:
+          - label: "Home Content"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Data, name: data, widget: markdown }
