@@ -1,0 +1,41 @@
+@import 'normalize';
+
+// $brand: #c3aca1;
+// $pink: #c674a4;
+
+$primary: #ee87bf;
+$primary-lighter: lighten($primary, 20%);
+$secondary: #263238;
+// $complementary: #87eeb5;
+$complementary: complement($primary);
+
+$cursive: 'Arizonia', cursive;
+$sans: 'Karla', sans-serif;
+$serif: 'Lusitana', serif;
+
+body {
+  font-family: $sans;
+  font-weight: 400;
+}
+
+@import 'redesign';
+
+// .wrap-all {
+//   background-color: #fff;
+//   overflow: hidden;
+//   position: static;
+//   width: 100%;
+//   z-index: 2;
+// }
+
+// main {
+//   background-color: #fff;
+//   display: flex;
+//   flex-direction: column;
+//   padding-top: 0;
+// }
+
+// @import 'welcome';
+// @import 'about';
+// @import 'services';
+// @import 'contact';
