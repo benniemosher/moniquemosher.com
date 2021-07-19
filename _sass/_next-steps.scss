@@ -1,0 +1,107 @@
+.next-steps {
+  section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    // position: relative;
+    // height: 620px;
+
+    // @media only screen and (min-width: 1024px) {
+    //   // height: auto;
+    //   width: 90%;
+    // }
+  }
+
+  article {
+    background-color: #faf3e8;
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    margin-right: -20rem;
+    padding: 4rem;
+    position: relative;
+    width: 705px;
+    z-index: 1;
+    // position: absolute;
+    // left: 0;
+
+    // @media only screen and (min-width: 1024px) {
+    //   width: 60%;
+    //   padding: 2rem;
+    // }
+  }
+
+  img {
+    max-height: 461px;
+    max-width: 716px;
+    position: relative;
+    z-index: 0;
+    // position: absolute;
+    // right: 0;
+
+    // @media only screen and (min-width: 1024px) {
+    //   object-fit: cover;
+    //   width: 60%;
+    //   height: 500px;
+    //   object-position: 10px 0px;
+    // }
+  }
+
+  h2 {
+    font-size: 1.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1;
+    margin: 0 0 2rem;
+    text-align: center;
+    width: 100%;
+
+    // @media only screen and (min-width: 1024px) {
+    //   margin-bottom: 1rem;
+    //   font-size: 1.625rem;
+    // }
+  }
+
+  h3 {
+    margin: 0 0 0.5rem;
+  }
+
+  div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2rem;
+    text-align: center;
+
+    // @media only screen and (min-width: 1024px) {
+    //   padding-left: 1rem;
+    //   display: flex;
+    //   flex-direction: column;
+    //   justify-content: space-between;
+    //   align-items: center;
+    // }
+
+    &:first-of-type {
+      border-right: 3px solid #fff;
+      padding-left: 0;
+      padding-right: 2rem;
+
+      // @media only screen and (min-width: 1024px) {
+      //   padding-right: 1rem;
+      // }
+    }
+  }
+
+  .button {
+    background-color: #fff;
+    color: $primary;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding: 0.75rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}

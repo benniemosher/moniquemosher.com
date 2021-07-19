@@ -1,12 +1,6 @@
-@import 'normalize';
-
-// $brand: #c3aca1;
-// $pink: #c674a4;
-
 $primary: #ee87bf;
 $primary-lighter: lighten($primary, 20%);
 $secondary: #263238;
-// $complementary: #87eeb5;
 $complementary: complement($primary);
 
 $cursive: 'Arizonia', cursive;
@@ -18,24 +12,59 @@ body {
   font-weight: 400;
 }
 
-@import 'redesign';
+q::before,
+q::after {
+  content: '';
+}
 
-// .wrap-all {
-//   background-color: #fff;
-//   overflow: hidden;
-//   position: static;
-//   width: 100%;
-//   z-index: 2;
-// }
+blockquote,
+q {
+  quotes: '' '';
+}
 
-// main {
-//   background-color: #fff;
-//   display: flex;
-//   flex-direction: column;
-//   padding-top: 0;
-// }
+* {
+  box-sizing: border-box;
+}
 
-// @import 'welcome';
-// @import 'about';
-// @import 'services';
-// @import 'contact';
+section {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 6rem 0;
+  width: 80%;
+
+  // @media only screen and (min-width: 1024px) {
+  //   padding: 3rem 0;
+  // }
+}
+
+h2 {
+  color: $secondary;
+  font-family: $serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h3 {
+  color: $complementary;
+  font-family: 'Karla';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@import 'normalize';
+@import 'about';
+@import 'ad';
+@import 'blog';
+@import 'footer';
+@import 'header';
+@import 'nav';
+@import 'next-steps';
+@import 'testimonials';
+@import 'welcome';
+@import 'work-with';

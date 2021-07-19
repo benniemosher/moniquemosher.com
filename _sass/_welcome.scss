@@ -1,59 +1,31 @@
-[data-id='welcome'] {
-  clear: both;
-  display: flex;
-  height: 100vh;
-  position: relative;
-  width: 100%;
+.welcome {
+  article {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 60%;
 
-  aside {
-    background-image: url('/assets/img/welcome.jpg');
-    background-position: right center;
-    background-size: cover;
-    height: 100%;
-    width: 50vw;
+    // @media only screen and (min-width: 1024px) {
+    //   padding: 0 4.4rem;
+    // }
   }
 
-  article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 100px;
-    width: 50vw;
+  h2,
+  h3,
+  p {
+    margin-top: 0;
+  }
 
-    h2 {
-      font-family: 'Yellowtail', cursive;
-      font-size: 60px;
-      line-height: 1;
-      margin-bottom: 30px;
-      padding-bottom: 30px;
-      position: relative;
+  h3 {
+    margin-bottom: 0;
 
-      &::after {
-        background-color: #000;
-        bottom: 0;
-        content: '';
-        display: block;
-        height: 3px;
-        left: 0;
-        position: absolute;
-        width: 30px;
-      }
-    }
-
-    p {
-      font-size: 25px;
-      font-weight: 400;
-      margin-bottom: 30px;
-    }
-
-    .button {
-      align-self: flex-start;
-      background-color: $brand;
-      border-radius: 5px;
-      color: #fff;
-      line-height: 1;
-      padding: 10px 20px;
-      text-decoration: none;
+    &::after {
+      background-color: $primary;
+      content: '';
+      display: block;
+      height: 3px;
+      margin: 2rem auto;
+      width: 33%;
     }
   }
 }
