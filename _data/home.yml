@@ -1,40 +1,113 @@
-sections:
-  - name: Welcome
-    data: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a felis
-      hendrerit, viverra dolor eget, varius est. Nulla lacus felis, porta et
-      velit vitae, facilisis lobortis diam. Cras sapien mauris, pharetra ac
-      dolor ut, pretium euismod enim.
-  - name: About
-    data: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a felis
-      hendrerit, viverra dolor eget, varius est. Nulla lacus felis, porta et
-      velit vitae, facilisis lobortis diam. Cras sapien mauris, pharetra ac
-      dolor ut, pretium euismod enim.
-  - name: Services
-    data: >-
-      <ul>
-        <li>
-          <i class="fa fa-user"></i>
-          <h3>Service</h3>
-          <p>Nulla ullamcorper iaculis erat, viverra vestibulum massa tempor accumsan.</p>
-        </li>
-        <li>
-          <i class="fa fa-user"></i>
-          <h3>Service</h3>
-          <p>Nulla ullamcorper iaculis erat, viverra vestibulum massa tempor accumsan.</p>
-        </li>
-        <li>
-          <i class="fa fa-user"></i>
-          <h3>Service</h3>
-          <p>Nulla ullamcorper iaculis erat, viverra vestibulum massa tempor accumsan.</p>
-        </li>
-        <li>
-          <i class="fa fa-user"></i>
-          <h3>Service</h3>
-          <p>Nulla ullamcorper iaculis erat, viverra vestibulum massa tempor accumsan.</p>
-        </li>
-      </ul>
-  - name: Contact
-    data: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a felis
-      hendrerit, viverra dolor eget, varius est. Nulla lacus felis, porta et
-      velit vitae, facilisis lobortis diam. Cras sapien mauris, pharetra ac
-      dolor ut, pretium euismod enim.
+header:
+  - photo: https://res.cloudinary.com/benniemosher/image/upload/c_fill,g_auto,h_600,w_900/v1626834100/moniquemosher.com/aubreynicolephotography-2021/B24A5878_pgarmi.jpg
+    title: Helping people change their inner-child using Spirit
+    content: Doing big things for all people, because I can. You can too.
+    button:
+      - text: Get Started Now
+        link: "#next-steps"
+welcome:
+  - title: Some kind of really neat text.
+    subtitle: And, some more text to add emphasize. Because we are sick of no emphasize.
+    content: I'm baby heirloom hot chicken four loko wolf hammock irony austin,
+      affogato selvage aesthetic enamel pin. Direct trade cred seitan, austin
+      tacos brunch brooklyn pok pok pitchfork thundercats mustache man bun.
+      Portland glossier retro everyday carry mumblecore, kogi typewriter echo
+      park fingerstache keffiyeh plaid venmo pop-up.
+ad:
+  - subtitle: Free Download
+    title: The 10-minute Daily Meditation for Sessy Times
+    button:
+      - link: "#"
+        text: Get Meditation
+    photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_600/v1626834166/moniquemosher.com/aubreynicolephotography-2021/B24A6145_mbjf9x.jpg
+about:
+  - title: Meet Monique!
+    subtitle: YOU CAN STOP LOOKING...
+    extratitle: You found your medium!
+    content: Freegan kombucha poke, cornhole trust fund keytar roof party.
+      Sustainable jianbing offal hoodie cold-pressed cronut DIY pug woke af
+      copper mug next level chambray. Photo booth skateboard art party, vice
+      selfies disrupt health goth offal 90's tofu. Master cleanse activated
+      charcoal waistcoat offal disrupt chia kombucha shabby chic normcore lomo
+      succulents organic twee. Humblebrag enamel pin drinking vinegar brunch
+      cliche.
+    terms:
+      - term: PSYCHIC MEDIUM
+      - term: INNER CHILD COACH
+      - term: ASCENSION GUIDE
+    photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_500/v1626834146/moniquemosher.com/aubreynicolephotography-2021/B24A5986_zsem11.jpg
+work-with:
+  - title: Work With Monique
+    services:
+      - title: Service Name
+        content:
+          Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
+          Disrupt activated charcoal VHS ugh chillwave lomo.
+        button:
+          - text: Get Service
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834129/moniquemosher.com/aubreynicolephotography-2021/B24A5953_renrip.jpg
+      - content:
+          Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
+          Disrupt activated charcoal VHS ugh chillwave lomo.
+        title: Service Name
+        button:
+          - text: Get Service
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
+      - title: Service Name
+        content:
+          Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
+          Disrupt activated charcoal VHS ugh chillwave lomo.
+        button:
+          - text: Get Service
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834054/moniquemosher.com/aubreynicolephotography-2021/B24A5680_sm6phl.jpg
+    call-out:
+      - content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it. Disrupt activated charcoal VHS ugh chillwave lomo.
+        title: Service Name
+        button:
+          - text: Get Service
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_800/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
+reviews:
+  - photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,e_blur:1000,q_auto:eco,w_3440/v1626834017/moniquemosher.com/aubreynicolephotography-2021/B24A5472_weasn5.jpg
+    title:
+      <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+      Reviews
+    callout: She helped me do this really rad thing and it was great... for real dawg!
+    quote:
+      Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it. Disrupt
+      activated charcoal VHS ugh chillwave lomo. She helped me do this really
+      rad thing and it was great... for real dawg!
+    cite: Bennie M
+    button:
+      - text: See More Feedback
+        link: "/reviews"
+next-steps:
+  - photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_800/v1626834065/moniquemosher.com/aubreynicolephotography-2021/B24A5693_hlpv5q.jpg
+    title: Take the next steps towards a brighter you...
+    steps:
+      - title: Learn How We Can Work Together
+        content:
+          Working together is SIMPLE, and there's a package for exactly what you
+          need right now!
+        button:
+          - text: See Packages
+            link: "#"
+      - title: Book A Reading Today
+        content:
+          Looking to go at your own pace? Book a reading today, no strings
+          attached!
+        button:
+          - link: "#"
+            text: Book A Reading
+footer-call-out:
+  - title: Some Kind of Cool Title Here That's Two Lines!
+    content:
+      Breakthrough everyday carry activated charcoal photo booth ethical echo
+      park selfies. Selvage jianbing pour-over, palo santo tofu gluten-free
+      butcher tumeric!
+    button:
+      - text: Do Something
+        link: "#"

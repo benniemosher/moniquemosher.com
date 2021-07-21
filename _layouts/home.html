@@ -2,63 +2,11 @@
 layout: default
 ---
 
-<main>
-  <div class="wrap-all">
-    <main>
-      <section id="welcome" data-id="welcome">
-        <aside>
-        </aside>
-        <article>
-          <h2>Welcome</h2>
-          {% assign welcome = site.data.home.sections | where:"name", "Welcome" | first %}
-          {{ welcome.data }}
-          <a href="#about" class="button">About Me</a>
-        </article>
-      </section>
-
-      <section id="about" data-id="about">
-        <aside>
-        </aside>
-        <article>
-          <h2>About Me</h2>
-          {% assign about = site.data.home.sections | where:"name", "About" | first %}
-          {{ about.data }}
-          <a href="#services" class="button">Services</a>
-        </article>
-      </section>
-
-      <section id="services" data-id="services">
-        <aside>
-        </aside>
-        <article>
-          <h2>Services</h2>
-          {% assign service = site.data.home.sections | where:"name", "Services" | first %}
-          {{ service.data }}
-        </article>
-      </section>
-
-      <section id="contact" data-id="contact">
-        <aside>
-        </aside>
-        <article>
-          <h2>Contact Me</h2>
-          {% assign contact = site.data.home.sections | where:"name", "Contact" | first %}
-          {{ contact.data }}
-          <form data-netlify="true">
-            <label>Name:</label>
-            <input type="text" name="name" />
-            <label>Email:</label>
-            <input type="email" name="email" />
-            <label>Phone:</label>
-            <input type="phone" name="phone" />
-            <label>Message:</label>
-            <textarea name="message"></textarea>
-            <div class="actions">
-              <button type="submit">Send</button>
-            </div>
-          </form>
-        </article>
-      </section>
-    </main>
-  </div>
-</main>
+{%- include header.html -%}
+{%- include welcome.html -%}
+{%- include ad.html -%}
+{%- include about.html -%}
+{%- include work-with.html -%}
+{%- include reviews.html -%}
+{%- include blog.html -%}
+{%- include next-steps.html -%}

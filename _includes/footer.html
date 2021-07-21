@@ -1,0 +1,36 @@
+<footer>
+  <section>
+    <article class="instagram">
+      <h3>Hang out on Insta @psychic.medium.moniquemosher</h3>
+      <div id="instafeed" class="instafeed"></div>
+    </article>
+    <article class="call-out">
+      {%- if site.data.home.footer-call-out %}
+        {%- for call-out in site.data.home.footer-call-out %}
+          <span>&#9728;</span>
+          <h3>{{ call-out.title }}</h3>
+          <p>{{ call-out.content }}</p>
+          {%- for button in call-out.button %}
+            <a href="{{ button.link }}" class="button">{{ button.text }}</a>
+          {%- endfor %}
+        {%- endfor %}
+      {%- endif %}
+    </article>
+    <article class="find-your-need">
+      <h3>Find your need...</h3>
+      <ul>
+        <li><a href="#">Work Together</a></li>
+        <li><a href="#">reviews</a></li>
+        <li><a href="#">Vlog</a></li>
+      </ul>
+    </article>
+  </section>
+  <nav>
+    <ul>
+      <li>Copyright &copy; 2021 &middot; Monique Mosher</li>
+      <li><a href="https://benniemosher.com" rel="noopener" target="_blank">Website by Bennie Mosher</a></li>
+      <li><a href="#">Terms &amp; Conditions</a></li>
+      <li><a href="https://www.aubreynicolephotography.com/" rel="noopener" target="_blank">Photography By Aubrey Nicole Photography</a></li>
+    </ul>
+  </nav>
+</footer>

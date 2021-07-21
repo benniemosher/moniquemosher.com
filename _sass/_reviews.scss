@@ -1,0 +1,85 @@
+.reviews {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  position: relative;
+
+  &.full {
+    justify-content: space-evenly;
+  }
+
+  .bg {
+    background-image: url('../img/review.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+    left: 0;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+
+    @media only screen and (max-width: 760px) {
+      background-size: auto 100%;
+    }
+  }
+
+  .button {
+    color: #fff;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 3;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+.review {
+  align-items: center;
+  background-color: $primary;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2rem;
+  position: relative;
+  width: 40%;
+  z-index: 1;
+
+  @media only screen and (max-width: 1024px) {
+    width: 80%;
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1;
+    text-align: center;
+  }
+
+  q {
+    color: $secondary;
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 1.4;
+    text-align: center;
+  }
+}

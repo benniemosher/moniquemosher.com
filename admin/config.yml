@@ -21,30 +21,160 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Photo", name: "photo", widget: image }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - {
-          label: "Categories",
-          name: "categories",
-          widget: "list",
-          default:
-            ["Uncategorized", "TDD", ".dotfiles", "Vim", "Rails", "Learning"],
-        }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Categories", name: "categories", widget: "list" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "config"
-    label: "Config"
-    editor:
-      preview: false
+  - name: reviews
+    label: "Reviews"
+    folder: "_reviews"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "review" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Photo", name: "photo", widget: "image" }
+      - { label: "Cite", name: "cite", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Quote", name: "quote", widget: "markdown" }
+
+  - label: "Pages"
+    name: "pages"
     files:
-      - label: "Home"
+      - label: "Home Page"
         name: "home"
         file: "_data/home.yml"
         fields:
-          - label: "Home Content"
-            name: "sections"
-            widget: "list"
+          - label: Header
+            name: header
+            widget: list
             fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Data, name: data, widget: markdown }
+              - { label: Photo, name: photo, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: string }
+              - label: Button
+                name: button
+                widget: list
+                fields:
+                  - { label: Text, name: text, widget: string }
+                  - { label: Link, name: link, widget: string }
+
+          - label: Welcome
+            name: welcome
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Sub-Title, name: subtitle, widget: string }
+              - { label: Content, name: content, widget: markdown }
+
+          - label: Ad
+            name: ad
+            widget: list
+            fields:
+              - { label: Photo, name: photo, widget: image }
+              - { label: Sub Title, name: subtitle, widget: string }
+              - { label: Title, name: title, widget: string }
+              - label: Button
+                name: button
+                widget: list
+                fields:
+                  - { label: Text, name: text, widget: string }
+                  - { label: Link, name: link, widget: string }
+
+          - label: About
+            name: about
+            widget: list
+            fields:
+              - { label: Photo, name: photo, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: Sub-Title, name: subtitle, widget: string }
+              - { label: Extra-Title, name: extratitle, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - label: Terms
+                name: terms
+                widget: list
+                fields:
+                  - { label: Term, name: term, widget: string }
+
+          - label: Work With Monique
+            name: work-with
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Services
+                name: services
+                widget: list
+                fields:
+                  - { label: Photo, name: photo, widget: image }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Content, name: content, widget: markdown }
+                  - label: Button
+                    name: button
+                    widget: list
+                    fields:
+                      - { label: Text, name: text, widget: string }
+                      - { label: Link, name: link, widget: string }
+              - label: Call Out Service
+                name: call-out
+                widget: list
+                fields:
+                  - { label: Photo, name: photo, widget: image }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Content, name: content, widget: markdown }
+                  - label: Button
+                    name: button
+                    widget: list
+                    fields:
+                      - { label: Text, name: text, widget: string }
+                      - { label: Link, name: link, widget: string }
+
+          - label: reviews
+            name: reviews
+            widget: list
+            fields:
+              - { label: Photo, name: photo, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: Quote Callout, name: callout, widget: string }
+              - { label: Quote, name: quote, widget: string }
+              - { label: Cite, name: cite, widget: string }
+              - label: Button
+                name: button
+                widget: list
+                fields:
+                  - { label: Text, name: text, widget: string }
+                  - { label: Link, name: link, widget: string }
+
+          - label: Next Steps
+            name: next-steps
+            widget: list
+            fields:
+              - { label: Photo, name: photo, widget: image }
+              - { label: Title, name: title, widget: string }
+              - label: Steps
+                name: steps
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Content, name: content, widget: markdown }
+                  - label: Button
+                    name: button
+                    widget: list
+                    fields:
+                      - { label: Text, name: text, widget: string }
+                      - { label: Link, name: link, widget: string }
+
+          - label: Footer Call Out
+            name: footer-call-out
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Content, name: content, widget: markdown }
+              - label: Button
+                name: button
+                widget: list
+                fields:
+                  - { label: Text, name: text, widget: string }
+                  - { label: Link, name: link, widget: string }

@@ -1,63 +1,130 @@
-[data-id='about'] {
-  background: $brand;
-  color: #fff;
-  display: flex;
-  height: 100vh;
+.about {
+  article {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 
-  aside {
-    background-image: url('/assets/img/about.jpg');
-    background-position: center center;
-    background-size: cover;
-    height: 100%;
-    order: 1;
-    width: 50vw;
+    @media only screen and (max-width: 760px) {
+      flex-direction: column;
+    }
   }
 
-  article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    order: 0;
-    padding: 100px;
-    width: 50vw;
+  img {
+    height: auto;
+    max-height: 680px;
+    max-width: 500px;
+    object-fit: cover;
+    width: 40%;
 
-    h2 {
-      font-family: 'Yellowtail', cursive;
-      font-size: 60px;
-      line-height: 1;
-      margin-bottom: 30px;
-      padding-bottom: 30px;
-      position: relative;
-
-      &::after {
-        background-color: $brand;
-        bottom: 0;
-        content: '';
-        display: block;
-        height: 3px;
-        left: 0;
-        position: absolute;
-        width: 30px;
-      }
+    @media only screen and (max-width: 1024px) {
+      width: 50%;
     }
 
-    p {
-      font-weight: 400;
-      margin-bottom: 50px;
+    @media only screen and (max-width: 760px) {
+      max-height: none;
+      max-width: none;
+      width: 100%;
+    }
+  }
 
-      &:first-of-type {
-        font-size: 25px;
-      }
+  div {
+    background-color: #fff;
+    margin-left: -3rem;
+    padding: 4rem 3rem;
+
+    @media only screen and (max-width: 812px) {
+      padding: 2rem 1.5rem;
     }
 
-    .button {
-      align-self: flex-start;
-      background-color: #fff;
-      border-radius: 5px;
-      color: $brand;
+    @media only screen and (max-width: 760px) {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+  }
+
+  h2 {
+    color: $complementary;
+    font-family: $cursive;
+    font-size: 3.6rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: -7rem 0 2rem -1rem;
+
+    @media only screen and (max-width: 812px) {
+      font-size: 3rem;
+      margin: -4.5rem 0 2rem;
+    }
+
+    @media only screen and (max-width: 760px) {
+      margin: -3.5rem 0 1rem;
+    }
+  }
+
+  h3 {
+    color: $complementary;
+    font-family: $sans;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 1.4;
+    margin: 0.5rem 0;
+    text-align: left;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 812px) {
       line-height: 1;
-      padding: 10px 20px;
-      text-decoration: none;
+      margin: 0;
+    }
+
+    @media only screen and (max-width: 760px) {
+      text-align: center;
+    }
+  }
+
+  h4 {
+    color: $secondary;
+    font-family: $serif;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin: 1rem 0;
+    text-align: left;
+
+    @media only screen and (max-width: 812px) {
+      font-size: 2rem;
+      margin: 0.5rem 0;
+    }
+
+    @media only screen and (max-width: 760px) {
+      text-align: center;
+    }
+  }
+
+  h5 {
+    font-family: $sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    line-height: 1.4;
+    margin: 1rem 0;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 812px) {
+      line-height: 1;
+      margin: 0.5rem 0;
+    }
+  }
+
+  p {
+    @media only screen and (max-width: 812px) {
+      margin: 0.5rem 0 0;
     }
   }
 }

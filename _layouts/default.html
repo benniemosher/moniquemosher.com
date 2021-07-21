@@ -6,9 +6,12 @@
 </head>
 
 <body>
-  {%- include header.html -%}
+  {%- include menu.html -%}
 
-  {{ content }}
+  <main>
+    {{ content }}
+    {%- include footer.html -%}
+  </main>
 
   {%- include foot.html -%}
 </body>
