@@ -1,26 +1,25 @@
-<div id="blog" class="blog">
-  <section>
-    <h3>From the <span>blog</span></h3>
-
-    {%- if site.posts.size > 0 %}
-      <div class="posts">
-        {%- for post in site.posts limit:2 %}
-          <article class="post">
-            <img src="{{ post.photo }}" alt="" />
-            <div>
-              <h2>
-                <a href="{{ post.url | relative_url }}">
-                  {{post.title | escape }}
+{%- if site.posts.size > 0 %}
+  <div id="blog" class="blog">
+    <section>
+      <h3>From the <span>blog</span></h3>
+        <div class="posts">
+          {%- for post in site.posts limit:2 %}
+            <article class="post">
+              <img src="{{ post.photo }}" alt="" />
+              <div>
+                <h2>
+                  <a href="{{ post.url | relative_url }}">
+                    {{post.title | escape }}
+                  </a>
+                </h2>
+                {{ post.excerpt }}
+                <a href="{{ post.url | relative_url }}" class="button">
+                  <span>&#8594;</span>
                 </a>
-              </h2>
-              {{ post.excerpt }}
-              <a href="{{ post.url | relative_url }}" class="button">
-                <span>&#8594;</span>
-              </a>
-            </div>
-          </article>
-        {%- endfor %}
-      </div>
-    {%- endif %}
-  </section>
-</div>
+              </div>
+            </article>
+          {%- endfor %}
+        </div>
+    </section>
+  </div>
+{%- endif %}
