@@ -33,74 +33,74 @@ work-with:
         content: All psychic medium readings are a powerful combination of psychic and mediumship blended beautifully together. These readings may consist of psychic impressions, visions, predictions, mediumship, past, present, and future info, and can connect you to your loved ones, deceased, living, animal, or human.
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Psychic Medium Readings&body=Hi, my name is <insert_name> and I am interested in Psychic Medium Readings"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834129/moniquemosher.com/aubreynicolephotography-2021/B24A5953_renrip.jpg
       - title: Psychic Business Readings
         content: All psychic business readings are highly organized and very unique. We talk about energy, soul signatures, and go into the depths of the energetics of your business. This causes a true reflection of yourself, and allows everything to start shifting from there!
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Psychic Business Readings&body=Hi, my name is <insert_name> and I am interested in Psychic Business Readings"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
       - title: Real Estate Readings
         content: All real estate readings are for properties that won't sell. We find out why and we do the work to clear it and sell the home!
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Real Estate Readings&body=Hi, my name is <insert_name> and I am interested in Real Estate Readings"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834054/moniquemosher.com/aubreynicolephotography-2021/B24A5680_sm6phl.jpg
       - title: Animal Readings
         content: All animal readings are a deep nourishing psychic reading focusing on your animals, living or deceased!
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Animal Readings&body=Hi, my name is <insert_name> and I am interested in Animal Readings"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834129/moniquemosher.com/aubreynicolephotography-2021/B24A5953_renrip.jpg
       - title: Home or Land Clearing/Blessing Ceremony
         content: All home or land clearing/blessing ceremonies work with your home or land, developed or not, and clears, re-aligns, and provides blessing over the land communing deeply with the land and the land's spirits!
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Home or Land Clearing/Blessing Ceremony&body=Hi, my name is <insert_name> and I am interested in a Home or Land Clearing/Blessing Ceremony"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
       - title: Soul Retrieval Ceremony
         content: All soul retrieval ceremonies are used when someone is very sick, mentally or physically, or they are dealing with entity attachment or possession. This is a very deep psychic ceremony performed in meditation for you!
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Soul Retrieval Ceremony&body=Hi, my name is <insert_name> and I am interested in a Soul Retrieval Ceremony"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834054/moniquemosher.com/aubreynicolephotography-2021/B24A5680_sm6phl.jpg
       - title: Light Integration Therapy
         content: All light integration therapy sessions are high-powered energy sessions stripping the auric field, and integrating new light. This allows us to remove and often resolve trauma through this powerful ceremony!
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Light Integration Therapy&body=Hi, my name is <insert_name> and I am interested in Light Integration Therapy"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834129/moniquemosher.com/aubreynicolephotography-2021/B24A5953_renrip.jpg
       - title: Womb Cleansing Ceremony
         content: All womb cleansing ceremonies are POWERFUL in-person sessions involving sacred feminine rituals, spiritual journeying, guided meditation, bodywork, womb clearing, and light integration allowing you to release psychic imprints or cords of the past.
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Womb Cleansing Ceremony&body=Hi, my name is <insert_name> and I am interested in a Womb Cleansing Ceremony"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
       - title: Entity Removal Ceremony
         content: All entity removal ceremonies are removals of entities, human or demonic, anything or anyone not a part of one's true self, clearing the attachment and allowing peace.
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Entity Removal Ceremony&body=Hi, my name is <insert_name> and I am interested in a Entity Removal Ceremony"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834054/moniquemosher.com/aubreynicolephotography-2021/B24A5680_sm6phl.jpg
     call-out:
       - title: Spark
         content: Spark is a seven-week program designed to provide the most revolutionary inner-child healing and private coaching.
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Spark program&body=Hi, my name is <insert_name> and I am interested in the Spark program"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_800/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
       - title: Boundaries & Borders
         content: Boundaries & Borders is a one-month sacred container of private coaching focusing on BOUNDARIES, how to know them, implement them, and keep them. Boundaries & Borders are our self-protection!
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Boundaries & Borders program&body=Hi, my name is <insert_name> and I am interested in the Boundaries & Borders program"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_800/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
       - title: Spirit-Led Living
         content: Spirit-led living is a three-month private coaching container to allow the embodiment of truly going into an elevated consciousness and expanding our awareness by activating key principles.
         button:
           - text: Get Started
-            link: "#"
+            link: "mailto:contact@moniquemosher.com?subject=Get Started with Spirit-Led Living program&body=Hi, my name is <insert_name> and I am interested in the Spirit-Led Living program"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_800/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
 reviews:
   - photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,e_blur:1000,q_auto:eco,w_3440/v1626834017/moniquemosher.com/aubreynicolephotography-2021/B24A5472_weasn5.jpg
@@ -126,15 +126,15 @@ next-steps:
           need right now!
         button:
           - text: See Packages
-            link: "#"
+            link: "#work-with"
       - title: Book A Reading Today
         content: Need something more personal? Book a reading today, no strings attached!
         button:
-          - link: "#"
+          - link: "mailto:contact@moniquemosher.com?subject=Book a Reading&body=Hi, my name is <insert_name> and I am interested in booking a reading."
             text: Book A Reading
 footer-call-out:
   - title: Are you ready to challenge yourself to find your true inner-self?
     content: It is never too late to start a new journey, no matter the age, occupation, or relationship status. Any area of your life, Spirit has got you covered! Contact Monique below for your real-life psychic mediumship reading!
     button:
       - text: Contact Me
-        link: "#"
+        link: "mailto:contact@moniquemosher.com?subject=Challeng Myself&body=Hi, my name is <insert_name> and I am interested in booking a reading to challenge myself"
