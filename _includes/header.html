@@ -1,0 +1,14 @@
+{%- if site.data.home2.header %}
+  <header>
+    {%- for header in site.data.home2.header %}
+      <img src="{{ header.photo }}" alt="Hero" />
+      <article>
+        <h1>{{ header.title }}</h1>
+        <p>{{ header.content }}</p>
+        {%- for button in header.button %}
+          <a href="{{ button.link }}" class="button">{{ button.text }}</a>
+        {%- endfor %}
+      </article>
+    {%- endfor %}
+  </header>
+{%- endif %}

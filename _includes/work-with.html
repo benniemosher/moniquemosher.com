@@ -1,0 +1,35 @@
+{%- if site.data.home2.work-with %}
+  <section id="work-with" class="work-with">
+    <article>
+      {%- for work-with in site.data.home2.work-with %}
+        <h3>{{ work-with.title }}</h3>
+        <section class="services">
+          {%- for service in work-with.services %}
+          <article class="service">
+            <img src="{{ service.photo }}" alt="Service" />
+            <div>
+              <h2>{{ service.title }}</h2>
+              {{ service.content | markdownify }}
+              {%- for button in service.button %}
+                <a href="{{ button.link }}" class="button">{{ button.text }}</a>
+              {%- endfor %}
+            </div>
+          </article>
+          {%- endfor %}
+        </section>
+        {%- for call-out in work-with.call-out %}
+          <article class="full-width service">
+            <img src="{{ call-out.photo }}" alt="Service" />
+            <div>
+              <h2>{{ call-out.title }}</h2>
+              {{ call-out.content | markdownify }}
+              {%- for button in call-out.button %}
+              <a href="{{ button.link }}" class="button">{{ button.text }}</a>
+              {%- endfor %}
+            </div>
+          </article>
+        {%- endfor %}
+      {%- endfor %}
+    </article>
+  </section>
+{%- endif %}

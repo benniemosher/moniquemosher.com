@@ -1,13 +1,27 @@
-nav {
+.main-nav {
   align-items: center;
   border-top: 4px solid $primary;
   display: flex;
-  padding: 4vh 0;
+  padding: 2rem 0;
+
+  @media only screen and (max-width: 1366px) {
+    padding: 1rem 0 3rem;
+  }
+
+  @media only screen and (max-width: 812px) {
+    padding: 1rem 0 2rem;
+  }
 
   a {
     color: $secondary;
+    display: block;
     font-weight: 400;
+    text-align: center;
     text-decoration: none;
+
+    @media only screen and (max-width: 812px) {
+      padding: 0 10px;
+    }
   }
 
   ul {
@@ -15,7 +29,12 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    padding: 0;
     width: 90vw;
+
+    @media only screen and (max-width: 812px) {
+      width: 100%;
+    }
   }
 
   li {
@@ -33,9 +52,10 @@ nav {
     text-align: center;
     text-transform: none;
 
-    // @media only screen and (min-width: 1024px) {
-    //   font-size: 2rem;
-    // }
+    @media only screen and (max-width: 812px) {
+      font-size: 2rem;
+      padding: 0;
+    }
 
     span {
       display: block;

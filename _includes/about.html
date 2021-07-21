@@ -1,0 +1,20 @@
+{%- if site.data.home2.about %}
+  <section id="about" class="about">
+    <article>
+      {%- for about in site.data.home2.about %}
+      <img src="{{ about.photo }}" alt="Coach" />
+      <div>
+        <h2>{{ about.title }}</h2>
+        <h3>{{ about.subtitle }}</h3>
+        <h4>{{ about.extratitle }}</h4>
+        <h5>
+          {%- for term in about.terms %}
+            {{ term.term }}
+          {%- endfor %}
+        </h5>
+        {{ about.content }}
+      </div>
+      {%- endfor %}
+    </article>
+  </section>
+{%- endif %}

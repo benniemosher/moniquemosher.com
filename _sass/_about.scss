@@ -3,34 +3,44 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+
+    @media only screen and (max-width: 760px) {
+      flex-direction: column;
+    }
   }
 
   img {
-    height: 684px;
+    height: auto;
+    max-height: 680px;
+    max-width: 500px;
     object-fit: cover;
-    width: 509px;
+    width: 40%;
 
-    // @media only screen and (min-width: 1024px) {
-    //   width: 434px;
-    //   height: auto;
-    //   // max-height: 583px;
-    // }
+    @media only screen and (max-width: 1024px) {
+      width: 50%;
+    }
+
+    @media only screen and (max-width: 760px) {
+      max-height: none;
+      max-width: none;
+      width: 100%;
+    }
   }
 
   div {
     background-color: #fff;
-    box-sizing: border-box;
-    left: -2.5rem;
+    margin-left: -3rem;
     padding: 4rem 3rem;
-    position: relative;
 
-    // @media only screen and (min-width: 1024px) {
-    //   left: auto;
-    //   right: 0;
-    //   position: absolute;
-    //   width: 60%;
-    //   padding: 3rem;
-    // }
+    @media only screen and (max-width: 812px) {
+      padding: 2rem 1.5rem;
+    }
+
+    @media only screen and (max-width: 760px) {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
   }
 
   h2 {
@@ -43,11 +53,14 @@
     line-height: 1.2;
     margin: -7rem 0 2rem -1rem;
 
-    // @media only screen and (min-width: 1024px) {
-    //   margin: 0 0 0 -1rem;
-    //   position: absolute;
-    //   top: -3rem;
-    // }
+    @media only screen and (max-width: 812px) {
+      font-size: 3rem;
+      margin: -4.5rem 0 2rem;
+    }
+
+    @media only screen and (max-width: 760px) {
+      margin: -3.5rem 0 1rem;
+    }
   }
 
   h3 {
@@ -61,6 +74,15 @@
     margin: 0.5rem 0;
     text-align: left;
     text-transform: uppercase;
+
+    @media only screen and (max-width: 812px) {
+      line-height: 1;
+      margin: 0;
+    }
+
+    @media only screen and (max-width: 760px) {
+      text-align: center;
+    }
   }
 
   h4 {
@@ -73,6 +95,15 @@
     line-height: 1;
     margin: 1rem 0;
     text-align: left;
+
+    @media only screen and (max-width: 812px) {
+      font-size: 2rem;
+      margin: 0.5rem 0;
+    }
+
+    @media only screen and (max-width: 760px) {
+      text-align: center;
+    }
   }
 
   h5 {
@@ -84,5 +115,16 @@
     line-height: 1.4;
     margin: 1rem 0;
     text-transform: uppercase;
+
+    @media only screen and (max-width: 812px) {
+      line-height: 1;
+      margin: 0.5rem 0;
+    }
+  }
+
+  p {
+    @media only screen and (max-width: 812px) {
+      margin: 0.5rem 0 0;
+    }
   }
 }

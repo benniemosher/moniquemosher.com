@@ -1,21 +1,14 @@
 .blog {
   background-color: #edeff0;
 
-  section {
-    // @media only screen and (min-width: 1024px) {
-    //   width: 90%;
-    //   padding: 3rem 0;
-    // }
-  }
-
   h3 {
     line-height: 1;
     margin: 0 0 2rem;
     text-align: left;
 
-    // @media only screen and (min-width: 1024px) {
-    //   margin-bottom: 1rem;
-    // }
+    @media only screen and (max-width: 1024px) {
+      margin-bottom: 1rem;
+    }
 
     span {
       font-family: $cursive;
@@ -30,12 +23,20 @@
     max-height: 250px;
     object-fit: cover;
     width: 40%;
+
+    @media only screen and (max-width: 812px) {
+      width: 46%;
+    }
   }
 
   .posts {
     align-items: center;
     display: flex;
     justify-content: space-between;
+
+    @media only screen and (max-width: 760px) {
+      flex-direction: column;
+    }
   }
 
   .post {
@@ -45,15 +46,20 @@
     justify-content: space-between;
     width: 48%;
 
-    // @media only screen and (min-width: 1024px) {
-    //   width: 49%;
-    // }
+    @media only screen and (max-width: 760px) {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
 
     div {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       padding: 0 2rem;
+
+      @media only screen and (max-width: 1024px) {
+        padding: 0 1rem;
+      }
     }
   }
 
@@ -62,6 +68,10 @@
     letter-spacing: 0;
     line-height: 1;
     margin: 0;
+
+    @media only screen and (max-width: 812px) {
+      font-size: 1.25rem;
+    }
   }
 
   p {
@@ -69,6 +79,15 @@
     line-height: 1.4;
     margin-bottom: 2rem;
     text-align: justify;
+
+    @media only screen and (max-width: 1024px) {
+      margin: 1rem 0;
+    }
+
+    @media only screen and (max-width: 812px) {
+      line-height: 1;
+      margin: 0.5rem 0;
+    }
   }
 
   .go-to {

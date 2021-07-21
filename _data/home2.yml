@@ -40,13 +40,15 @@ work-with:
   - title: Work With Monique
     services:
       - title: Service Name
-        content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
+        content:
+          Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
           Disrupt activated charcoal VHS ugh chillwave lomo.
         button:
           - text: Get Service
             link: "#"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834129/moniquemosher.com/aubreynicolephotography-2021/B24A5953_renrip.jpg
-      - content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
+      - content:
+          Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
           Disrupt activated charcoal VHS ugh chillwave lomo.
         title: Service Name
         button:
@@ -54,15 +56,15 @@ work-with:
             link: "#"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
       - title: Service Name
-        content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
+        content:
+          Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
           Disrupt activated charcoal VHS ugh chillwave lomo.
         button:
           - text: Get Service
             link: "#"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834054/moniquemosher.com/aubreynicolephotography-2021/B24A5680_sm6phl.jpg
-    service:
-      - content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
-          Disrupt activated charcoal VHS ugh chillwave lomo.
+    call-out:
+      - content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it. Disrupt activated charcoal VHS ugh chillwave lomo.
         title: Service Name
         button:
           - text: Get Service
@@ -70,10 +72,12 @@ work-with:
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_400/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
 reviews:
   - photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,e_blur:1000,q_auto:eco,w_3440/v1626834017/moniquemosher.com/aubreynicolephotography-2021/B24A5472_weasn5.jpg
-    title: <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+    title:
+      <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
       Reviews
     callout: She helped me do this really rad thing and it was great... for real dawg!
-    quote: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it. Disrupt
+    quote:
+      Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it. Disrupt
       activated charcoal VHS ugh chillwave lomo. She helped me do this really
       rad thing and it was great... for real dawg!
     cite: Bennie M
@@ -85,20 +89,23 @@ next-steps:
     title: Take the next steps towards a brighter you...
     steps:
       - title: Learn How We Can Work Together
-        content: Working together is SIMPLE, and there's a package for exactly what you
+        content:
+          Working together is SIMPLE, and there's a package for exactly what you
           need right now!
         button:
           - text: See Packages
             link: "#"
       - title: Book A Reading Today
-        content: Looking to go at your own pace? Book a reading today, no strings
+        content:
+          Looking to go at your own pace? Book a reading today, no strings
           attached!
         button:
           - link: "#"
             text: Book A Reading
 footer-call-out:
   - title: Some Kind of Cool Title Here That's Two Lines!
-    content: Breakthrough everyday carry activated charcoal photo booth ethical echo
+    content:
+      Breakthrough everyday carry activated charcoal photo booth ethical echo
       park selfies. Selvage jianbing pour-over, palo santo tofu gluten-free
       butcher tumeric!
     button:

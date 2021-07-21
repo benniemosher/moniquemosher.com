@@ -1,0 +1,22 @@
+{%- if site.data.home2.testimonials %}
+  <div id="testimonials" class="testimonials">
+    {%- for testimonial in site.data.home2.testimonials %}
+      <div class="bg" style="background-image: url('{{ testimonial.photo }}') no-repeat;"></div>
+      <article>
+        <!-- <h3><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span> Reviews -->
+        <!-- </h3> -->
+        <h3>{{ testimonial.title }}</h3>
+        <h2>"{{ testimonial.callout }}"</h2>
+        <q>
+          {{ testimonial.quote }}
+          {%- if testimonial.cite %}
+            <cite>&ndash; {{ testimonial.cite }}</cite>
+          {%- endif %}
+        </q>
+        {%- for button in testimonial.button %}
+          <a href="{{ button.link }}" class="button">{{ button.text }}</a>
+        {%- endfor %}
+      </article>
+    {%- endfor %}
+  </div>
+{%- endif %}
