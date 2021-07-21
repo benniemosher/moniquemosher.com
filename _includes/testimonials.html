@@ -2,17 +2,20 @@
   <div id="testimonials" class="testimonials">
     {%- for testimonial in site.data.home2.testimonials %}
       <div class="bg" style="background-image: url('{{ testimonial.photo }}') no-repeat;"></div>
-      <article>
-        <!-- <h3><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span> Reviews -->
-        <!-- </h3> -->
-        <h3>{{ testimonial.title }}</h3>
-        <h2>"{{ testimonial.callout }}"</h2>
-        <q>
-          {{ testimonial.quote }}
-          {%- if testimonial.cite %}
-            <cite>&ndash; {{ testimonial.cite }}</cite>
-          {%- endif %}
-        </q>
+      <article class="testimonial">
+        {%- if site.reviews.size > 0 %}
+          {%- for review in site.reviews limit:1 %}
+            <h3>{{ testimonial.title }}</h3>
+            <h2>"{{ review.excerpt }}"</h2>
+            <q>
+              {{ review.quote }}
+              {%- if review.cite %}
+              <cite>&ndash; {{ review.cite }}</cite>
+              {%- endif %}
+            </q>
+          {%- endfor %}
+        {%- endif %}
+
         {%- for button in testimonial.button %}
           <a href="{{ button.link }}" class="button">{{ button.text }}</a>
         {%- endfor %}

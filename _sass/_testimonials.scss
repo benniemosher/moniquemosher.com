@@ -23,21 +23,33 @@
     }
   }
 
-  article {
-    align-items: center;
-    background-color: $primary;
+  .button {
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 2rem;
-    position: relative;
-    width: 40%;
-    z-index: 1;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 3;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
 
-    @media only screen and (max-width: 1024px) {
-      width: 80%;
-    }
+.testimonial {
+  align-items: center;
+  background-color: $primary;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2rem;
+  position: relative;
+  width: 40%;
+  z-index: 1;
+
+  @media only screen and (max-width: 1024px) {
+    width: 80%;
   }
 
   h3 {
@@ -65,17 +77,5 @@
     letter-spacing: 0;
     line-height: 1.4;
     text-align: center;
-  }
-
-  .button {
-    color: #fff;
-    font-style: italic;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-    line-height: 3;
-    margin-top: 1rem;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
   }
 }

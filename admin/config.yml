@@ -28,6 +28,19 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: reviews
+    label: "Reviews"
+    folder: "_reviews"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "review" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Photo", name: "photo", widget: "image" }
+      - { label: "Cite", name: "cite", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Quote", name: "quote", widget: "markdown" }
+
   - label: "Pages"
     name: "pages"
     files:
