@@ -13,6 +13,7 @@
   .services {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 2rem;
     padding: 0;
@@ -108,6 +109,10 @@
   .full-width {
     margin: 0 auto;
     width: 80%;
+
+    &:nth-last-child(n + 2) {
+      margin-bottom: 2rem;
+    }
 
     @media only screen and (max-width: 1024px) {
       width: 90%;

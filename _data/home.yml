@@ -1,18 +1,14 @@
 header:
   - photo: https://res.cloudinary.com/benniemosher/image/upload/c_fill,g_auto,h_600,w_900/v1626834100/moniquemosher.com/aubreynicolephotography-2021/B24A5878_pgarmi.jpg
-    title: Helping people change their inner-child using Spirit
-    content: Doing big things for all people, because I can. You can too.
+    title: Readings that help people change through Spirit!
+    content: Monique has provided readings for clients in 7 countries and from all walks of life, including Professional Sports Team Managers to florists for the rich and famous! Her services will meet you in places where others have left you wanting more.
     button:
-      - text: Get Started Now
+      - text: Start Services Now!
         link: "#next-steps"
 welcome:
-  - title: Some kind of really neat text.
-    subtitle: And, some more text to add emphasize. Because we are sick of no emphasize.
-    content: I'm baby heirloom hot chicken four loko wolf hammock irony austin,
-      affogato selvage aesthetic enamel pin. Direct trade cred seitan, austin
-      tacos brunch brooklyn pok pok pitchfork thundercats mustache man bun.
-      Portland glossier retro everyday carry mumblecore, kogi typewriter echo
-      park fingerstache keffiyeh plaid venmo pop-up.
+  - title: Your multi-dimensional faith-based psychic medium!
+    subtitle: Monique will help you catapult and accelerate your life into its highest version!
+    content: Monique's services leave you feeling activated and deeply connected to Spirit and your true inner-self. Monique has made it her life mission to remind people that Spirit lives outside the box and that Spirit is moving and living in the moving facets of our lives. Through her potent, powerful, and meaningful services you can reignite a true connection with your inner-self.
 ad:
   - subtitle: Free Download
     title: The 10-minute Daily Meditation
@@ -24,13 +20,7 @@ about:
   - title: Meet Monique!
     subtitle: YOU CAN STOP LOOKING...
     extratitle: You found your medium!
-    content: Freegan kombucha poke, cornhole trust fund keytar roof party.
-      Sustainable jianbing offal hoodie cold-pressed cronut DIY pug woke af
-      copper mug next level chambray. Photo booth skateboard art party, vice
-      selfies disrupt health goth offal 90's tofu. Master cleanse activated
-      charcoal waistcoat offal disrupt chia kombucha shabby chic normcore lomo
-      succulents organic twee. Humblebrag enamel pin drinking vinegar brunch
-      cliche.
+    content: Monique is a psychic medium of the people. She walks with every walk of life and has read for lawyers, doctors, Christians, Catholics, and more. Monique will meet you in the middle of life where others have left you behind and longing for more. Monique practices deep meditation, yoga, and PLAY to stay deeply integrated and committed to Spirit and her mission to bring others back.
     terms:
       - term: PSYCHIC MEDIUM
       - term: INNER CHILD COACH
@@ -39,35 +29,77 @@ about:
 work-with:
   - title: Work With Monique
     services:
-      - title: Service Name
-        content:
-          Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
-          Disrupt activated charcoal VHS ugh chillwave lomo.
+      - title: Psychic Medium Readings
+        content: All psychic medium readings are a powerful combination of psychic and mediumship blended beautifully together. These readings may consist of psychic impressions, visions, predictions, mediumship, past, present, and future info, and can connect you to your loved ones, deceased, living, animal, or human.
         button:
-          - text: Get Service
+          - text: Get Started
             link: "#"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834129/moniquemosher.com/aubreynicolephotography-2021/B24A5953_renrip.jpg
-      - content:
-          Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
-          Disrupt activated charcoal VHS ugh chillwave lomo.
-        title: Service Name
+      - title: Psychic Business Readings
+        content: All psychic business readings are highly organized and very unique. We talk about energy, soul signatures, and go into the depths of the energetics of your business. This causes a true reflection of yourself, and allows everything to start shifting from there!
         button:
-          - text: Get Service
+          - text: Get Started
             link: "#"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
-      - title: Service Name
-        content:
-          Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
-          Disrupt activated charcoal VHS ugh chillwave lomo.
+      - title: Real Estate Readings
+        content: All real estate readings are for properties that won't sell. We find out why and we do the work to clear it and sell the home!
         button:
-          - text: Get Service
+          - text: Get Started
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834054/moniquemosher.com/aubreynicolephotography-2021/B24A5680_sm6phl.jpg
+      - title: Animal Readings
+        content: All animal readings are a deep nourishing psychic reading focusing on your animals, living or deceased!
+        button:
+          - text: Get Started
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834129/moniquemosher.com/aubreynicolephotography-2021/B24A5953_renrip.jpg
+      - title: Home or Land Clearing/Blessing Ceremony
+        content: All home or land clearing/blessing ceremonies work with your home or land, developed or not, and clears, re-aligns, and provides blessing over the land communing deeply with the land and the land's spirits!
+        button:
+          - text: Get Started
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
+      - title: Soul Retrieval Ceremony
+        content: All soul retrieval ceremonies are used when someone is very sick, mentally or physically, or they are dealing with entity attachment or possession. This is a very deep psychic ceremony performed in meditation for you!
+        button:
+          - text: Get Started
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834054/moniquemosher.com/aubreynicolephotography-2021/B24A5680_sm6phl.jpg
+      - title: Light Integration Therapy
+        content: All light integration therapy sessions are high-powered energy sessions stripping the auric field, and integrating new light. This allows us to remove and often resolve trauma through this powerful ceremony!
+        button:
+          - text: Get Started
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834129/moniquemosher.com/aubreynicolephotography-2021/B24A5953_renrip.jpg
+      - title: Womb Cleansing Ceremony
+        content: All womb cleansing ceremonies are POWERFUL in-person sessions involving sacred feminine rituals, spiritual journeying, guided meditation, bodywork, womb clearing, and light integration allowing you to release psychic imprints or cords of the past.
+        button:
+          - text: Get Started
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
+      - title: Entity Removal Ceremony
+        content: All entity removal ceremonies are removals of entities, human or demonic, anything or anyone not a part of one's true self, clearing the attachment and allowing peace.
+        button:
+          - text: Get Started
             link: "#"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834054/moniquemosher.com/aubreynicolephotography-2021/B24A5680_sm6phl.jpg
     call-out:
-      - content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it. Disrupt activated charcoal VHS ugh chillwave lomo.
-        title: Service Name
+      - title: Spark
+        content: Spark is a seven-week program designed to provide the most revolutionary inner-child healing and private coaching.
         button:
-          - text: Get Service
+          - text: Get Started
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_800/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
+      - title: Boundaries & Borders
+        content: Boundaries & Borders is a one-month sacred container of private coaching focusing on BOUNDARIES, how to know them, implement them, and keep them. Boundaries & Borders are our self-protection!
+        button:
+          - text: Get Started
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_800/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
+      - title: Spirit-Led Living
+        content: Spirit-led living is a three-month private coaching container to allow the embodiment of truly going into an elevated consciousness and expanding our awareness by activating key principles.
+        button:
+          - text: Get Started
             link: "#"
         photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_800/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
 reviews:
@@ -96,18 +128,13 @@ next-steps:
           - text: See Packages
             link: "#"
       - title: Book A Reading Today
-        content:
-          Looking to go at your own pace? Book a reading today, no strings
-          attached!
+        content: Need something more personal? Book a reading today, no strings attached!
         button:
           - link: "#"
             text: Book A Reading
 footer-call-out:
-  - title: Some Kind of Cool Title Here That's Two Lines!
-    content:
-      Breakthrough everyday carry activated charcoal photo booth ethical echo
-      park selfies. Selvage jianbing pour-over, palo santo tofu gluten-free
-      butcher tumeric!
+  - title: Are you ready to challenge yourself to find your true inner-self?
+    content: It is never too late to start a new journey, no matter the age, occupation, or relationship status. Any area of your life, Spirit has got you covered! Contact Monique below for your real-life psychic mediumship reading!
     button:
-      - text: Do Something
+      - text: Contact Me
         link: "#"
