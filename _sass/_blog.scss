@@ -20,6 +20,7 @@
   }
 
   img {
+    height: 250px;
     max-height: 250px;
     object-fit: cover;
     width: 40%;
@@ -50,16 +51,17 @@
       margin-bottom: 1rem;
       width: 100%;
     }
+  }
 
-    div {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      padding: 0 2rem;
+  div {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-evenly;
+    padding: 0 2rem;
 
-      @media only screen and (max-width: 1024px) {
-        padding: 0 1rem;
-      }
+    @media only screen and (max-width: 1024px) {
+      padding: 0 1rem;
     }
   }
 
@@ -67,11 +69,15 @@
     font-size: 1.5rem;
     letter-spacing: 0;
     line-height: 1;
-    margin: 0;
+    margin: 0 0 1rem;
 
     @media only screen and (max-width: 812px) {
       font-size: 1.25rem;
     }
+  }
+
+  a {
+    color: $secondary;
   }
 
   p {
@@ -90,7 +96,7 @@
     }
   }
 
-  .go-to {
+  .button {
     align-items: center;
     align-self: flex-end;
     border: 1px solid;
