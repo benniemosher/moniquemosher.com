@@ -4,7 +4,7 @@
 
     {%- if site.posts.size > 0 %}
       <div class="posts">
-        {%- for post in site.posts %}
+        {%- for post in site.posts limit:2 %}
           <article class="post">
             <img src="{{ post.photo }}" alt="" />
             <div>
