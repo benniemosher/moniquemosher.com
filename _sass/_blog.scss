@@ -33,6 +33,7 @@
   .posts {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
     @media only screen and (max-width: 760px) {
@@ -107,5 +108,15 @@
     justify-content: center;
     text-decoration: none;
     width: 30px;
+  }
+}
+
+.full {
+  h3 {
+    color: $primary;
+  }
+
+  .post:nth-last-child(n + 2) {
+    margin-bottom: 2rem;
   }
 }

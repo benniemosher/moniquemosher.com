@@ -69,7 +69,7 @@ work-with:
         button:
           - text: Get Service
             link: "#"
-        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_400/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_800/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
 reviews:
   - photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,e_blur:1000,q_auto:eco,w_3440/v1626834017/moniquemosher.com/aubreynicolephotography-2021/B24A5472_weasn5.jpg
     title:
