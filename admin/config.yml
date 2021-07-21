@@ -46,7 +46,7 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "_data/home2.yml"
+        file: "_data/home.yml"
         fields:
           - label: Header
             name: header

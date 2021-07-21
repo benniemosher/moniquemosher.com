@@ -5,6 +5,10 @@
   padding: 3rem 0;
   position: relative;
 
+  &.full {
+    justify-content: space-evenly;
+  }
+
   .bg {
     background-image: url('../img/review.jpg');
     background-position: center;
@@ -78,9 +82,4 @@
     line-height: 1.4;
     text-align: center;
   }
-}
-
-.full {
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }

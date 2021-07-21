@@ -1,11 +1,11 @@
-{%- if site.data.home2.reviews %}
+{%- if site.data.home.reviews %}
   <div id="reviews" class="reviews">
-    {%- for review in site.data.home2.reviews %}
-      <div class="bg" style="background-image: url('{{ site.data.home2.reviews[0].photo }}');"></div>
+    {%- for review in site.data.home.reviews %}
+      <div class="bg" style="background-image: url('{{ site.data.home.reviews[0].photo }}');"></div>
       <article class="review">
         {%- if site.reviews.size > 0 %}
           {%- for review in site.reviews limit:1 %}
-            <h3>{{ site.data.home2.reviews[0].title }}</h3>
+            <h3>{{ site.data.home.reviews[0].title }}</h3>
             <h2>"{{ review.excerpt }}"</h2>
             <q>
               {{ review.quote }}

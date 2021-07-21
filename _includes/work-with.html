@@ -1,7 +1,7 @@
-{%- if site.data.home2.work-with %}
+{%- if site.data.home.work-with %}
   <section id="work-with" class="work-with">
     <article>
-      {%- for work-with in site.data.home2.work-with %}
+      {%- for work-with in site.data.home.work-with %}
         <h3>{{ work-with.title }}</h3>
         <section class="services">
           {%- for service in work-with.services %}
