@@ -1,0 +1,9 @@
+---
+layout: review
+photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_1200/v1626834146/moniquemosher.com/aubreynicolephotography-2021/B24A5986_zsem11.jpg
+cite: Samantha
+excerpt: ...everything you said was gonna happen in my last reading absolutely has!
+quote: Moe, I just wanted to say everything you said was gonna happen in my last
+  reading absolutely has! 100% even though I didn't want it to work out that
+  way... the universe works in crazy ways. And your always spot on!
+---
