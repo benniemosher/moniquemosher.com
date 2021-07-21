@@ -5,3 +5,66 @@ header:
     button:
       - text: Get Started Now
         link: "#next-steps"
+welcome:
+  - title: Some kind of really neat text.
+    subtitle: And, some more text to add emphasize. Because we are sick of no emphasize.
+    content: I'm baby heirloom hot chicken four loko wolf hammock irony austin,
+      affogato selvage aesthetic enamel pin. Direct trade cred seitan, austin
+      tacos brunch brooklyn pok pok pitchfork thundercats mustache man bun.
+      Portland glossier retro everyday carry mumblecore, kogi typewriter echo
+      park fingerstache keffiyeh plaid venmo pop-up.
+ad:
+  - subtitle: Free Download
+    title: The 10-minute Daily Meditation for Sessy Times
+    button:
+      - link: "#"
+        text: Get Meditation
+    photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_600/v1626834166/moniquemosher.com/aubreynicolephotography-2021/B24A6145_mbjf9x.jpg
+about:
+  - title: Meet Monique!
+    subtitle: YOU CAN STOP LOOKING...
+    extratitle: You found your medium!
+    content: Freegan kombucha poke, cornhole trust fund keytar roof party.
+      Sustainable jianbing offal hoodie cold-pressed cronut DIY pug woke af
+      copper mug next level chambray. Photo booth skateboard art party, vice
+      selfies disrupt health goth offal 90's tofu. Master cleanse activated
+      charcoal waistcoat offal disrupt chia kombucha shabby chic normcore lomo
+      succulents organic twee. Humblebrag enamel pin drinking vinegar brunch
+      cliche.
+    terms:
+      - term: PSYCHIC MEDIUM
+      - term: INNER CHILD COACH
+      - term: ASCENSION GUIDE
+    photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_500/v1626834146/moniquemosher.com/aubreynicolephotography-2021/B24A5986_zsem11.jpg
+work-with:
+  - title: Work With Monique
+    services:
+      - title: Service Name
+        content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
+          Disrupt activated charcoal VHS ugh chillwave lomo.
+        button:
+          - text: Get Service
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834129/moniquemosher.com/aubreynicolephotography-2021/B24A5953_renrip.jpg
+      - content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
+          Disrupt activated charcoal VHS ugh chillwave lomo.
+        title: Service Name
+        button:
+          - text: Get Service
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
+      - title: Service Name
+        content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
+          Disrupt activated charcoal VHS ugh chillwave lomo.
+        button:
+          - text: Get Service
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_300/v1626834054/moniquemosher.com/aubreynicolephotography-2021/B24A5680_sm6phl.jpg
+    service:
+      - content: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it.
+          Disrupt activated charcoal VHS ugh chillwave lomo.
+        title: Service Name
+        button:
+          - text: Get Service
+            link: "#"
+        photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,h_400/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
