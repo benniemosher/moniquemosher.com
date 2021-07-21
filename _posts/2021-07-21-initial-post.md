@@ -3,6 +3,8 @@ layout: post
 photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_1200/v1626834046/moniquemosher.com/aubreynicolephotography-2021/B24A5601_ohokqv.jpg
 title: Initial Post
 description: An initial post for your blog
+excerpt: I'm baby plaid meggings humblebrag adaptogen iPhone banh mi. Retro
+  vegan deep v skateboard.
 categories:
   - General
 tags:
