@@ -134,5 +134,10 @@ header {
       line-height: 3;
       margin-top: 0.5rem;
     }
+
+    &:hover {
+      background-color: lighten($primary, 10%);
+      color: lighten(#000, 10%);
+    }
   }
 }

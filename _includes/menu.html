@@ -1,4 +1,4 @@
-{%- if site.data.menus.main -%}
+{%- if site.data.menus.main %}
   <nav class="main-nav">
     <div class="mobile-buttons">
       <a href="/" class="logo">monique mosher<span>Spiritual Life Coach</span></a>
@@ -7,17 +7,13 @@
       </a>
     </div>
     <ul>
-      {% for item in site.data.menus.main %}
+      {%- for item in site.data.menus.main %}
         <li>
-          <a href="{{ item.url }}" title="{{ item.title }}" class="{{ item.identifier }}">
+          <a href="{{ item.url | relative_url }}" title="{{ item.title }}" class="{{ item.identifier }}">
             {{ item.title }}
           </a>
         </li>
-      {% endfor %}
+      {%- endfor %}
     </ul>
-  <!-- <div>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-      </div> -->
   </nav>
-{%- endif -%}
+{%- endif %}

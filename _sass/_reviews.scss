@@ -34,9 +34,15 @@
     letter-spacing: 0.2em;
     line-height: 3;
     margin-top: 1rem;
+    padding: 0 1rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+
+    &:hover {
+      background-color: #fff;
+      color: $primary;
+    }
   }
 }
 

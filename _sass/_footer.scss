@@ -52,18 +52,6 @@ footer {
       }
     }
 
-    .instafeed {
-      align-items: center;
-      display: flex;
-      flex-wrap: wrap;
-      height: 100%;
-      justify-content: space-between;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-    }
-
     a {
       color: $complementary;
       display: block;
@@ -73,6 +61,10 @@ footer {
       @media only screen and (max-width: 760px) {
         height: auto;
         width: 48%;
+      }
+
+      &:hover {
+        color: lighten($complementary, 10%);
       }
     }
 
@@ -150,6 +142,50 @@ footer {
         padding: 0;
         width: 100%;
       }
+
+      &:hover {
+        background-color: $primary;
+        color: #fff;
+      }
+    }
+  }
+
+  .instafeed {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    a {
+      position: relative;
+
+      &:hover::after {
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+      }
+
+      &::after {
+        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.25);
+        background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQxLjczMiIgaGVpZ2h0PSI3OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCiA8Zz4KICA8dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+CiAgPHJlY3QgZmlsbD0ibm9uZSIgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiBoZWlnaHQ9IjgwIiB3aWR0aD0iMTQzLjczMiIgeT0iLTEiIHg9Ii0xIi8+CiA8L2c+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPHBhdGggZmlsbD0iI2ZmZmZmZiIgaWQ9InN2Z18xIiBkPSJtODkuNjY4LDM4Ljc4NmMwLC0xMC43NzMgLTguNzMxLC0xOS41MTIgLTE5LjUxLC0xOS41MTJzLTE5LjUxMiw4LjczNiAtMTkuNTEyLDE5LjUxMmMwLDEwLjc3NCA4LjczMiwxOS41MTEgMTkuNTEyLDE5LjUxMWMxMC43NzYsMCAxOS41MSwtOC43MzYgMTkuNTEsLTE5LjUxMW0zOC42ODQsLTAuMDU5Yy0xMy4zMTUsMTcuNTk5IC0zNC40MjYsMjguOTcyIC01OC4xOTMsMjguOTcyYy0yMy43NywwIC00NC44NzksLTExLjM3MyAtNTguMTk0LC0yOC45NzJjMTMuMzE0LC0xNy41OTggMzQuNDI0LC0yOC45NzEgNTguMTkzLC0yOC45NzFjMjMuNzY5LDAgNDQuODc4LDExLjM3MyA1OC4xOTQsMjguOTcxbTExLjk2MiwwLjAzM2MtMTQuNjQ4LC0yMy4yODIgLTQwLjU4OSwtMzguNzYgLTcwLjE1NiwtMzguNzZzLTU1LjUxLDE1LjQ3OCAtNzAuMTU4LDM4Ljc2YzE0LjY0OCwyMy4zMTIgNDAuNTkxLDM4LjgxIDcwLjE1OCwzOC44MXM1NS41MDgsLTE1LjQ5OCA3MC4xNTYsLTM4LjgxIi8+CiA8L2c+Cjwvc3ZnPg==');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50% auto;
+        content: '';
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        transition: opacity 0.5s ease-in-out;
+        width: 100%;
+      }
     }
   }
 
@@ -219,6 +255,10 @@ footer {
 
       @media only screen and (max-width: 812px) {
         line-height: 2.8rem;
+      }
+
+      &:hover {
+        color: $primary;
       }
     }
   }

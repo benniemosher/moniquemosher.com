@@ -16,21 +16,33 @@
         {%- endfor %}
       {%- endif %}
     </article>
-    <article class="find-your-need">
-      <h3>Find me online...</h3>
-      <ul>
-        <li><a href="https://www.facebook.com/PsychicMediumMoniqueMosher">Facebook</a></li>
-        <li><a href="https://www.instagram.com/psychic.medium.moniquemosher/">Instagram</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </article>
+    {%- if site.data.menus.social %}
+      <article class="find-your-need">
+        <h3>Find me online...</h3>
+        <ul>
+          {%- for item in site.data.menus.social %}
+            <li>
+              <a href="{{ item.url | relative_url }}" title="{{ item.title }}" class="{{ item.identifier }}">
+                {{ item.title }}
+              </a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </article>
+    {%- endif %}
   </section>
   <nav>
     <ul>
       <li>Copyright &copy; 2021 &middot; Monique Mosher</li>
-      <li><a href="https://benniemosher.com" rel="noopener" target="_blank">Website by Bennie Mosher</a></li>
-      <li><a href="#">Terms &amp; Conditions</a></li>
-      <li><a href="https://www.aubreynicolephotography.com/" rel="noopener" target="_blank">Photography By Aubrey Nicole Photography</a></li>
+      {%- if site.data.menus.social %}
+        {%- for item in site.data.menus.social %}
+          <li>
+            <a href="{{ item.url | relative_url }}" title="{{ item.title }}" class="{{ item.identifier }}" rel="noopener" target="_blank">
+              {{ item.title }}
+            </a>
+          </li>
+        {%- endfor %}
+      {%- endif %}
     </ul>
   </nav>
 </footer>

@@ -12,6 +12,16 @@ body {
   font-weight: 400;
 }
 
+a,
+a:visited,
+a:focus {
+  color: $primary;
+}
+
+a:hover {
+  color: $complementary;
+}
+
 q::before,
 q::after {
   content: '';
@@ -89,7 +99,7 @@ p {
 @import 'blog';
 @import 'footer';
 @import 'header';
-@import 'nav';
+@import 'menu';
 @import 'next-steps';
 @import 'reviews';
 @import 'welcome';
