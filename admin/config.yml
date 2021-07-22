@@ -178,3 +178,20 @@ collections:
                 fields:
                   - { label: Text, name: text, widget: string }
                   - { label: Link, name: link, widget: string }
+
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Menu"
+        name: "Menu"
+        file: "_data/menus.yml"
+        fields:
+          - label: "Menu Items"
+            name: "main"
+            widget: "list"
+            fields:
+              - { label: URL, name: url, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Identifier, name: identifier, widget: string }

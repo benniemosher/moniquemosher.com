@@ -1,0 +1,25 @@
+---
+main:
+  - url: "#welcome"
+    title: "Welcome"
+    identifier: "welcome"
+  - url: "#about"
+    title: "About"
+    identifier: "about"
+  - url: "#work-with"
+    title: "Work With Me"
+    identifier: "work-with"
+  - url: "/"
+    title: "monique mosher<span>Spiritual Life Coach</span>"
+    identifier: "logo"
+  - url: "#reviews"
+    title: Client Reviews
+    identifier: "reviews"
+  - url: "/blog"
+    title: "Blog"
+    identifier: "blog"
+  - url: "mailto:contact@moniquemosher.com?subject=Contact Monique&body=Hi, my name is <insert_name> and I am interested in your services."
+    title: "Contact"
+    identifier: "contact"
+---
+
