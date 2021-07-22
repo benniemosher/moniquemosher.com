@@ -34,8 +34,8 @@
   <nav>
     <ul>
       <li>Copyright &copy; 2021 &middot; Monique Mosher</li>
-      {%- if site.data.menus.social %}
-        {%- for item in site.data.menus.social %}
+      {%- if site.data.menus.footer %}
+        {%- for item in site.data.menus.footer %}
           <li>
             <a href="{{ item.url | relative_url }}" title="{{ item.title }}" class="{{ item.identifier }}" rel="noopener" target="_blank">
               {{ item.title }}
