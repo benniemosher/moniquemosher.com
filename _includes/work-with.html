@@ -6,7 +6,7 @@
         <section class="services">
           {%- for service in work-with.services %}
           <article class="service">
-            <img src="{{ service.photo }}" alt="Service" />
+            <img src="{{ service.photo }}" alt="{{ service.title }}" width="360" />
             <div>
               <h2>{{ service.title }}</h2>
               {{ service.content | markdownify }}
@@ -19,7 +19,7 @@
         </section>
         {%- for call-out in work-with.call-out %}
           <article class="full-width service">
-            <img src="{{ call-out.photo }}" alt="Service" />
+            <img src="{{ call-out.photo }}" alt="{{ service.title }}" width="960" />
             <div>
               <h2>{{ call-out.title }}</h2>
               {{ call-out.content | markdownify }}
