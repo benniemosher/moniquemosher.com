@@ -9,7 +9,7 @@ layout: default
       <div class="posts">
         {%- for post in site.posts limit:10 %}
           <article class="post">
-            <img src="{{ post.photo }}" alt="" />
+            <img src="{{ post.photo }}" alt="" height="250" />
             <div>
               <h2>
                 <a href="{{ post.url | relative_url }}">

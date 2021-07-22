@@ -1,5 +1,5 @@
 ---
-layout: review
+layout: default
 slug: sara
 photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_1200/v1626834138/moniquemosher.com/aubreynicolephotography-2021/B24A6004_hnwhjc.jpg
 cite: Sara

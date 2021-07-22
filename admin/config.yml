@@ -34,7 +34,12 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "review" }
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "default",
+        }
       - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Photo", name: "photo", widget: "image" }
       - { label: "Cite", name: "cite", widget: "string" }
