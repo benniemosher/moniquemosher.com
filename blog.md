@@ -7,7 +7,8 @@ layout: default
     <h3>Blog</h3>
     {%- if site.posts.size > 0 %}
       <div class="posts">
-        {%- for post in site.posts limit:10 %}
+        {% assign sorted = site.posts | sort: 'date' | reverse %}
+        {%- for post in sorted limit:10 %}
           <article class="post">
             <img src="{{ post.photo }}" alt="" height="250" />
             <div>

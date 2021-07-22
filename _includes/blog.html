@@ -3,7 +3,8 @@
     <section>
       <h3>From the <span>blog</span></h3>
         <div class="posts">
-          {%- for post in site.posts limit:2 %}
+          {% assign sorted = site.posts | sort: 'date' | reverse %}
+          {%- for post in sorted limit:2 %}
             <article class="post">
               <img src="{{ post.photo }}" alt="{{ post.title }}" height="250" />
               <div>
