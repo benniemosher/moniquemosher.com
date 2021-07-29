@@ -7,15 +7,16 @@ categories:
   - General
 tags:
   - General
-photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_1200/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
+photo: https://res.cloudinary.com/benniemosher/image/upload/f_auto,fl_flatten.force_strip,c_scale,w_1200/v1626834089/moniquemosher.com/aubreynicolephotography-2021/B24A5789_mv5zr0.jpg
 ---
+
 During psychic medium readings you may experience one of the following coming through:
 
-* Arcturians, Pleiadians- Extra Terristerial LIFE FORMS
-* Jesus, Mary Magdalene, Mother Theresa, Buddha, Ganesha ( ascended masters)
-* Deceased loved ones including Ancestors you may not know
-* Deceased pets
-* The Fae realm
-* Various forms of Goddess/God Energy- Odin, Persephone, etc
-* Spirit guides- Animal, Human or ancestral
-* Living souls in your life (ASTRAL project into the reading) can be human or animal and give life CHANGING INFORMATION.
+- Arcturians, Pleiadians- Extra Terristerial LIFE FORMS
+- Jesus, Mary Magdalene, Mother Theresa, Buddha, Ganesha ( ascended masters)
+- Deceased loved ones including Ancestors you may not know
+- Deceased pets
+- The Fae realm
+- Various forms of Goddess/God Energy- Odin, Persephone, etc
+- Spirit guides- Animal, Human or ancestral
+- Living souls in your life (ASTRAL project into the reading) can be human or animal and give life CHANGING INFORMATION.

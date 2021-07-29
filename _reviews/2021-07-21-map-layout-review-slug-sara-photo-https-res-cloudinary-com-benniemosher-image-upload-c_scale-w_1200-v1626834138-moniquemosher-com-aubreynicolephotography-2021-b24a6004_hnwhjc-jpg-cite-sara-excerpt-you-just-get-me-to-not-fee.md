@@ -1,7 +1,7 @@
 ---
 layout: default
 slug: sara
-photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_1200/v1626834138/moniquemosher.com/aubreynicolephotography-2021/B24A6004_hnwhjc.jpg
+photo: https://res.cloudinary.com/benniemosher/image/upload/f_auto,fl_flatten.force_strip,c_scale,w_1200/v1626834138/moniquemosher.com/aubreynicolephotography-2021/B24A6004_hnwhjc.jpg
 cite: Sara
 excerpt: YOU JUST GET ME to not feel so alone in this world.
 quote: Moe speaking with someone who is do damn smart, REAL, and raw it was

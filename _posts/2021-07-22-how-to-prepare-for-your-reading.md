@@ -7,8 +7,9 @@ categories:
   - General
 tags:
   - general
-photo: https://res.cloudinary.com/benniemosher/image/upload/c_scale,w_1200/v1626834154/moniquemosher.com/aubreynicolephotography-2021/B24A6059_zd3bnw.jpg
+photo: https://res.cloudinary.com/benniemosher/image/upload/f_auto,fl_flatten.force_strip,c_scale,w_1200/v1626834154/moniquemosher.com/aubreynicolephotography-2021/B24A6059_zd3bnw.jpg
 ---
+
 To prepare for a reading, the most important aspect is to BE WELL RESTED, and sit! My readings are powerful energetic vortexes, that take us from one plane into the next and everything in between. Just imagine it being the energetic equal of a triathlon!! I WORK WITH YOU along with Spirit!!
 
 Write down questions that you might have about finance, business, romance, or family members. Bring a way to keep track of what comes through. Take notes and record the reading if available! SO many
