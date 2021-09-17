@@ -15,7 +15,7 @@ const handler = async (event) => {
         download_files.push(file.download_url)
       })
 
-      console.log(`download files: ${JSON.stringify(download_files)}`)
+      console.log(`download files: ${JSON.stringify(download_files) }`)
     }
 
     return {
