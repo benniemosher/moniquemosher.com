@@ -6,7 +6,7 @@ const handler = async (event) => {
 
     // TODO: Change to env variable
     if (event.headers.authorization == "MvAe8ECXQBCW1eICf0QKDw") {
-      console.log(event.body)
+      // console.log(event.body)
       let payload = event.body.payload
       let title = payload.topic
       let download_files = []
@@ -15,7 +15,7 @@ const handler = async (event) => {
         download_files.push(file.download_url)
       })
 
-      console.log(`download files: ${JSON.stringify(download_files) }`)
+      console.log(JSON.stringify(download_files, null, 2))
     }
 
     return {
