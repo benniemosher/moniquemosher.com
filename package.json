@@ -4,7 +4,7 @@
   },
   "devDependencies": {
     "stylelint": "^14.16.0",
-    "stylelint-config-sass-guidelines": "^9.0.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-config-standard": "^29.0.0",
     "workbox-cli": "^6.5.4"
   }
