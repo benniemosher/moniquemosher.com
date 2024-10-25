@@ -1,3 +1,6 @@
 extends: default
+yaml-files:
+  - '!_data/home.yml'
+  - '!_data/menus.yml'
 rules:
   line-length: disable
