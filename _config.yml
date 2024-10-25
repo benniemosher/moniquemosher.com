@@ -4,21 +4,16 @@ description: >-
   Psychic Medium & Spiritual Life Coach
 baseurl: ""
 url: "https://moniquemosher.com"
-
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-
 date_format: "%b %-d, %Y"
-
 collections:
   - reviews
-
 jekyll-minifier:
   uglifier_args:
     harmony: true
-
 feed:
   tags: false
