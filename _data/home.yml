@@ -104,14 +104,9 @@ work-with:
         photo: https://res.cloudinary.com/benniemosher/image/upload/f_auto,fl_flatten.force_strip,c_scale,w_800/v1626834006/moniquemosher.com/aubreynicolephotography-2021/B24A5437_jvd0ts.jpg
 reviews:
   - photo: https://res.cloudinary.com/benniemosher/image/upload/f_auto,fl_flatten.force_strip,c_scale,e_blur:1000,q_auto:eco,w_3440/v1626834017/moniquemosher.com/aubreynicolephotography-2021/B24A5472_weasn5.jpg
-    title:
-      <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-      Reviews
+    title: <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span> Reviews
     callout: She helped me do this really rad thing and it was great... for real dawg!
-    quote:
-      Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it. Disrupt
-      activated charcoal VHS ugh chillwave lomo. She helped me do this really
-      rad thing and it was great... for real dawg!
+    quote: Lorem ipsum dolor amet banh mi 8-bit street art put a bird on it. Disrupt activated charcoal VHS ugh chillwave lomo. She helped me do this really rad thing and it was great... for real dawg!
     cite: Bennie M
     button:
       - text: See More Feedback
@@ -121,9 +116,7 @@ next-steps:
     title: Take the next steps towards a brighter you...
     steps:
       - title: Learn How We Can Work Together
-        content:
-          Working together is SIMPLE, and there's a package for exactly what you
-          need right now!
+        content: Working together is SIMPLE, and there's a package for exactly what you need right now!
         button:
           - text: See Packages
             link: "#work-with"
