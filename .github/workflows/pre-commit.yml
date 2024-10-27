@@ -1,7 +1,10 @@
+---
 name: Run pre-commit
 on:
   push:
+
 permissions: read-all
+
 jobs:
   pre-commit:
     runs-on: ubuntu-latest
