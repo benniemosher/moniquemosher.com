@@ -1,6 +1,9 @@
 ---
 extends: default
 
+yaml-files:
+  - '!_data/menus.yml'
+
 rules:
   line-length: disable
   truthy: disable
