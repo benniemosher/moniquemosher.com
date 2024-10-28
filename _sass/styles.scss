@@ -1,7 +1,8 @@
+@use "sass:color";
 $primary: #ee87bf;
-$primary-lighter: lighten($primary, 20%);
+$primary-lighter: color.adjust($primary, $lightness: 20%);
 $secondary: #263238;
-$complementary: complement($primary);
+$complementary: color.complement($primary);
 
 $cursive: 'Arizonia', cursive;
 $sans: 'Karla', sans-serif;
@@ -114,14 +115,14 @@ p {
   }
 }
 
-@import 'normalize';
-@import 'about';
-@import 'ad';
-@import 'blog';
-@import 'footer';
-@import 'header';
-@import 'menu';
-@import 'next-steps';
-@import 'reviews';
-@import 'welcome';
-@import 'work-with';
+@load-css 'normalize';
+@load-css 'about';
+@load-css 'ad';
+@load-css 'blog';
+@load-css 'footer';
+@load-css 'header';
+@load-css 'menu';
+@load-css 'next-steps';
+@load-css 'reviews';
+@load-css 'welcome';
+@load-css 'work-with';
