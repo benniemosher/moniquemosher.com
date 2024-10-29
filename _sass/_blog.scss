@@ -1,3 +1,5 @@
+@use 'variables';
+
 .blog {
   background-color: #edeff0;
 
@@ -11,7 +13,7 @@
     }
 
     span {
-      font-family: $cursive;
+      font-family: variables.$cursive;
       font-size: 3rem;
       font-style: italic;
       line-height: 1;
@@ -79,7 +81,7 @@
   }
 
   a {
-    color: $secondary;
+    color: variables.$secondary;
   }
 
   p {
@@ -103,7 +105,7 @@
     align-self: flex-end;
     border: 1px solid;
     border-radius: 100%;
-    color: $primary;
+    color: variables.$primary;
     display: flex;
     height: 30px;
     justify-content: center;
@@ -114,7 +116,7 @@
 
 .full {
   h3 {
-    color: $primary;
+    color: variables.$primary;
   }
 
   .post:nth-last-child(n + 2) {

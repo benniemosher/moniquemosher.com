@@ -1,6 +1,8 @@
+@use 'variables';
+
 .main-nav {
   align-items: center;
-  border-top: 4px solid $primary;
+  border-top: 4px solid variables.$primary;
   display: flex;
   padding: 2rem 0;
 
@@ -17,7 +19,7 @@
   }
 
   a {
-    color: $secondary;
+    color: variables.$secondary;
     display: block;
     font-weight: 400;
     text-align: center;
@@ -28,7 +30,7 @@
     }
 
     &:hover {
-      color: $primary;
+      color: variables.$primary;
     }
   }
 
@@ -54,7 +56,7 @@
   }
 
   li {
-    font-family: $sans;
+    font-family: variables.$sans;
     font-size: 0.8rem;
     font-weight: 400;
     list-style: none;
@@ -63,7 +65,7 @@
 
   .logo {
     display: block;
-    font-family: $serif;
+    font-family: variables.$serif;
     font-size: 3.313rem;
     text-align: center;
     text-transform: lowercase;
@@ -74,16 +76,16 @@
     }
 
     &:hover {
-      color: $complementary;
+      color: variables.$complementary;
 
       span {
-        color: $primary;
+        color: variables.$primary;
       }
     }
 
     span {
       display: block;
-      font-family: $sans;
+      font-family: variables.$sans;
       font-size: 0.8rem;
       font-weight: 400;
       text-transform: uppercase;
@@ -134,7 +136,7 @@
     }
 
     ul {
-      background-color: $primary-lighter;
+      background-color: variables.$primary-lighter;
       display: block;
       margin: 1rem 0 0;
       width: 100%;

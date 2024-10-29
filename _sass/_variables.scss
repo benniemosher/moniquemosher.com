@@ -1,0 +1,10 @@
+@use "sass:color";
+
+$primary: #ee87bf !default;
+$primary-lighter: color.adjust($primary, $lightness: 20%) !default;
+$secondary: #263238 !default;
+$complementary: color.complement($primary) !default;
+
+$cursive: 'Arizonia', cursive !default;
+$sans: 'Karla', sans-serif !default;
+$serif: 'Lusitana', serif !default;

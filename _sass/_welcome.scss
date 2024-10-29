@@ -1,3 +1,5 @@
+@use 'variables';
+
 .welcome {
   article {
     margin: 0 auto;
@@ -33,7 +35,7 @@
   }
 
   hr {
-    background-color: $primary;
+    background-color: variables.$primary;
     border: 0;
     display: block;
     height: 3px;

@@ -1,3 +1,5 @@
+@use 'variables';
+
 .next-steps {
   section {
     align-items: center;
@@ -117,7 +119,7 @@
 
   .button {
     background-color: #fff;
-    color: $primary;
+    color: variables.$primary;
     display: inline-block;
     font-weight: 700;
     line-height: 2.75rem;
@@ -133,7 +135,7 @@
     }
 
     &:hover {
-      background-color: $primary;
+      background-color: variables.$primary;
       color: #fff;
     }
   }
