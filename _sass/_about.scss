@@ -1,3 +1,5 @@
+@use 'variables';
+
 .about {
   article {
     align-items: center;
@@ -44,8 +46,8 @@
   }
 
   h2 {
-    color: $complementary;
-    font-family: $cursive;
+    color: variables.$complementary;
+    font-family: variables.$cursive;
     font-size: 3.6rem;
     font-style: italic;
     font-weight: 400;
@@ -64,8 +66,8 @@
   }
 
   h3 {
-    color: $complementary;
-    font-family: $sans;
+    color: variables.$complementary;
+    font-family: variables.$sans;
     font-size: 1.1rem;
     font-style: normal;
     font-weight: 700;
@@ -86,8 +88,8 @@
   }
 
   h4 {
-    color: $secondary;
-    font-family: $serif;
+    color: variables.$secondary;
+    font-family: variables.$serif;
     font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
@@ -107,7 +109,7 @@
   }
 
   h5 {
-    font-family: $sans;
+    font-family: variables.$sans;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;

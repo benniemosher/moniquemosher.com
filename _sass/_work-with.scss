@@ -1,3 +1,6 @@
+@use 'sass:color';
+@use 'variables';
+
 .work-with {
   padding-top: 0;
 
@@ -64,7 +67,7 @@
     }
 
     h2 {
-      font-family: $serif;
+      font-family: variables.$serif;
       font-size: 2.125rem;
       font-style: normal;
       font-weight: 700;
@@ -84,7 +87,7 @@
     }
 
     .button {
-      background-color: $secondary;
+      background-color: variables.$secondary;
       color: #fff;
       display: inline-block;
       font-weight: 700;
@@ -105,7 +108,7 @@
       }
 
       &:hover {
-        background-color: lighten($secondary, 10%);
+        background-color: color.adjust(variables.$secondary, $lightness: 10%);
       }
     }
   }

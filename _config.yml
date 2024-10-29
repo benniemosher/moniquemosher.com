@@ -22,3 +22,6 @@ jekyll-minifier:
 
 feed:
   tags: false
+
+sass:
+  sass_dir: _sass/

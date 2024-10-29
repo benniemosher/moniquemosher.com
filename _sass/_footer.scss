@@ -1,5 +1,8 @@
+@use 'sass:color';
+@use 'variables';
+
 footer {
-  background-color: $secondary;
+  background-color: variables.$secondary;
 
   section {
     display: flex;
@@ -53,7 +56,7 @@ footer {
     }
 
     a {
-      color: $complementary;
+      color: variables.$complementary;
       display: block;
       height: 48%;
       width: 48%;
@@ -64,7 +67,7 @@ footer {
       }
 
       &:hover {
-        color: lighten($complementary, 10%);
+        color: color.adjust(variables.$complementary, $lightness: 10%);
       }
     }
 
@@ -85,7 +88,7 @@ footer {
   .call-out {
     align-items: center;
     background-color: #fff;
-    border: 5px solid $primary;
+    border: 5px solid variables.$primary;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,7 +106,7 @@ footer {
     }
 
     span {
-      color: $primary;
+      color: variables.$primary;
       font-size: 2.5rem;
       line-height: 1;
     }
@@ -125,8 +128,8 @@ footer {
     }
 
     .button {
-      border: 2px solid $primary;
-      color: $primary;
+      border: 2px solid variables.$primary;
+      color: variables.$primary;
       display: inline-block;
       line-height: 3rem;
       margin-top: 2rem;
@@ -144,7 +147,7 @@ footer {
       }
 
       &:hover {
-        background-color: $primary;
+        background-color: variables.$primary;
         color: #fff;
       }
     }
@@ -208,7 +211,7 @@ footer {
     }
 
     h3 {
-      font-family: $cursive;
+      font-family: variables.$cursive;
       font-size: 2.375rem;
       font-style: italic;
       margin: 0;
@@ -258,7 +261,7 @@ footer {
       }
 
       &:hover {
-        color: $primary;
+        color: variables.$primary;
       }
     }
   }

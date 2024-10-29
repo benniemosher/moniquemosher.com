@@ -1,6 +1,9 @@
+@use 'sass:color';
+@use 'variables';
+
 header {
   align-items: center;
-  background: $primary-lighter;
+  background: variables.$primary-lighter;
   display: flex;
   justify-content: center;
   margin-top: 3rem;
@@ -99,8 +102,8 @@ header {
   }
 
   h1 {
-    color: $secondary;
-    font-family: $serif;
+    color: variables.$secondary;
+    font-family: variables.$serif;
     font-size: 3rem;
     font-weight: 700;
     line-height: 1;
@@ -117,7 +120,7 @@ header {
   }
 
   .button {
-    background-color: $primary;
+    background-color: variables.$primary;
     color: #000;
     font-weight: 400;
     line-height: 3.2;
@@ -136,8 +139,8 @@ header {
     }
 
     &:hover {
-      background-color: lighten($primary, 10%);
-      color: lighten(#000, 10%);
+      background-color: color.adjust(variables.$primary, $lightness: 10%);
+      color: color.adjust(#000, $lightness: 10%);
     }
   }
 }
