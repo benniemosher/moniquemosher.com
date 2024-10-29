@@ -92,18 +92,18 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  base64 (~> 0.2.0)
-  csv (~> 3.3)
+  base64
+  csv
   jekyll
   jekyll-feed
   jekyll-minifier
   jekyll-seo-tag
   jekyll-sitemap
-  logger (~> 1.6)
+  logger
   webrick
 
 RUBY VERSION
-   ruby 3.0.2p107
+   ruby 3.3.5p100
 
 BUNDLED WITH
    2.5.22
