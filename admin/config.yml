@@ -1,216 +1,339 @@
+---
 publish_mode: editorial_workflow
 site_url: https://moniquemosher.com
 display_url: https://moniquemosher.com
 logo_url: https://moniquemosher.com/assets/img/icons/icon-512x512.png
-
 backend:
   name: git-gateway
   branch: main
-
 media_library:
   name: cloudinary
   config:
     cloud_name: benniemosher
     api_key: 824966451111661
-
 collections:
   - name: posts
-    label: "Posts"
-    folder: "_posts"
+    label: Posts
+    folder: _posts
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Excerpt", name: "excerpt", widget: "string" }
-      - { label: "Categories", name: "categories", widget: "list" }
-      - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Photo", name: "photo", widget: image }
-      - { label: "Body", name: "body", widget: "markdown" }
-
+      - label: Layout
+        name: layout
+        widget: hidden
+        default: post
+      - label: Title
+        name: title
+        widget: string
+      - label: Excerpt
+        name: excerpt
+        widget: string
+      - label: Categories
+        name: categories
+        widget: list
+      - label: Tags
+        name: tags
+        widget: list
+      - label: Photo
+        name: photo
+        widget: image
+      - label: Body
+        name: body
+        widget: markdown
   - name: reviews
-    label: "Reviews"
-    folder: "_reviews"
+    label: Reviews
+    folder: _reviews
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "default",
-        }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Photo", name: "photo", widget: "image" }
-      - { label: "Cite", name: "cite", widget: "string" }
-      - { label: "Excerpt", name: "excerpt", widget: "string" }
-      - { label: "Quote", name: "quote", widget: "markdown" }
-
-  - label: "Pages"
-    name: "pages"
+      - label: Layout
+        name: layout
+        widget: hidden
+        default: default
+      - label: Slug
+        name: slug
+        widget: string
+      - label: Photo
+        name: photo
+        widget: image
+      - label: Cite
+        name: cite
+        widget: string
+      - label: Excerpt
+        name: excerpt
+        widget: string
+      - label: Quote
+        name: quote
+        widget: markdown
+  - label: Pages
+    name: pages
     files:
-      - label: "Home Page"
-        name: "home"
-        file: "_data/home.yml"
+      - label: Home Page
+        name: home
+        file: _data/home.yml
         fields:
           - label: Header
             name: header
             widget: list
             fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Photo, name: photo, widget: image }
-              - { label: Content, name: content, widget: string }
+              - label: Title
+                name: title
+                widget: string
+              - label: Photo
+                name: photo
+                widget: image
+              - label: Content
+                name: content
+                widget: string
               - label: Button
                 name: button
                 widget: list
                 fields:
-                  - { label: Text, name: text, widget: string }
-                  - { label: Link, name: link, widget: string }
-
+                  - label: Text
+                    name: text
+                    widget: string
+                  - label: Link
+                    name: link
+                    widget: string
           - label: Welcome
             name: welcome
             widget: list
             fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Sub-Title, name: subtitle, widget: string }
-              - { label: Content, name: content, widget: markdown }
-
+              - label: Title
+                name: title
+                widget: string
+              - label: Sub-Title
+                name: subtitle
+                widget: string
+              - label: Content
+                name: content
+                widget: markdown
           - label: Ad
             name: ad
             widget: list
             fields:
-              - { label: Sub Title, name: subtitle, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: Photo, name: photo, widget: image }
+              - label: Sub Title
+                name: subtitle
+                widget: string
+              - label: Title
+                name: title
+                widget: string
+              - label: Photo
+                name: photo
+                widget: image
               - label: Button
                 name: button
                 widget: list
                 fields:
-                  - { label: Text, name: text, widget: string }
-                  - { label: Link, name: link, widget: string }
-
+                  - label: Text
+                    name: text
+                    widget: string
+                  - label: Link
+                    name: link
+                    widget: string
           - label: About
             name: about
             widget: list
             fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Sub-Title, name: subtitle, widget: string }
-              - { label: Extra-Title, name: extratitle, widget: string }
-              - { label: Photo, name: photo, widget: image }
-              - { label: Content, name: content, widget: markdown }
+              - label: Title
+                name: title
+                widget: string
+              - label: Sub-Title
+                name: subtitle
+                widget: string
+              - label: Extra-Title
+                name: extratitle
+                widget: string
+              - label: Photo
+                name: photo
+                widget: image
+              - label: Content
+                name: content
+                widget: markdown
               - label: Terms
                 name: terms
                 widget: list
                 fields:
-                  - { label: Term, name: term, widget: string }
-
+                  - label: Term
+                    name: term
+                    widget: string
           - label: Work With Monique
             name: work-with
             widget: list
             fields:
-              - { label: Title, name: title, widget: string }
+              - label: Title
+                name: title
+                widget: string
               - label: Services
                 name: services
                 widget: list
                 fields:
-                  - { label: Photo, name: photo, widget: image }
-                  - { label: Title, name: title, widget: string }
-                  - { label: Content, name: content, widget: markdown }
+                  - label: Photo
+                    name: photo
+                    widget: image
+                  - label: Title
+                    name: title
+                    widget: string
+                  - label: Content
+                    name: content
+                    widget: markdown
                   - label: Button
                     name: button
                     widget: list
                     fields:
-                      - { label: Text, name: text, widget: string }
-                      - { label: Link, name: link, widget: string }
+                      - label: Text
+                        name: text
+                        widget: string
+                      - label: Link
+                        name: link
+                        widget: string
               - label: Call Out Service
                 name: call-out
                 widget: list
                 fields:
-                  - { label: Photo, name: photo, widget: image }
-                  - { label: Title, name: title, widget: string }
-                  - { label: Content, name: content, widget: markdown }
+                  - label: Photo
+                    name: photo
+                    widget: image
+                  - label: Title
+                    name: title
+                    widget: string
+                  - label: Content
+                    name: content
+                    widget: markdown
                   - label: Button
                     name: button
                     widget: list
                     fields:
-                      - { label: Text, name: text, widget: string }
-                      - { label: Link, name: link, widget: string }
-
+                      - label: Text
+                        name: text
+                        widget: string
+                      - label: Link
+                        name: link
+                        widget: string
           - label: reviews
             name: reviews
             widget: list
             fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Quote Callout, name: callout, widget: string }
-              - { label: Quote, name: quote, widget: string }
-              - { label: Cite, name: cite, widget: string }
-              - { label: Photo, name: photo, widget: image }
+              - label: Title
+                name: title
+                widget: string
+              - label: Quote Callout
+                name: callout
+                widget: string
+              - label: Quote
+                name: quote
+                widget: string
+              - label: Cite
+                name: cite
+                widget: string
+              - label: Photo
+                name: photo
+                widget: image
               - label: Button
                 name: button
                 widget: list
                 fields:
-                  - { label: Text, name: text, widget: string }
-                  - { label: Link, name: link, widget: string }
-
+                  - label: Text
+                    name: text
+                    widget: string
+                  - label: Link
+                    name: link
+                    widget: string
           - label: Next Steps
             name: next-steps
             widget: list
             fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Photo, name: photo, widget: image }
+              - label: Title
+                name: title
+                widget: string
+              - label: Photo
+                name: photo
+                widget: image
               - label: Steps
                 name: steps
                 widget: list
                 fields:
-                  - { label: Title, name: title, widget: string }
-                  - { label: Content, name: content, widget: markdown }
+                  - label: Title
+                    name: title
+                    widget: string
+                  - label: Content
+                    name: content
+                    widget: markdown
                   - label: Button
                     name: button
                     widget: list
                     fields:
-                      - { label: Text, name: text, widget: string }
-                      - { label: Link, name: link, widget: string }
-
+                      - label: Text
+                        name: text
+                        widget: string
+                      - label: Link
+                        name: link
+                        widget: string
           - label: Footer Call Out
             name: footer-call-out
             widget: list
             fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Content, name: content, widget: markdown }
+              - label: Title
+                name: title
+                widget: string
+              - label: Content
+                name: content
+                widget: markdown
               - label: Button
                 name: button
                 widget: list
                 fields:
-                  - { label: Text, name: text, widget: string }
-                  - { label: Link, name: link, widget: string }
-
-  - name: "menus"
-    label: "Menus"
+                  - label: Text
+                    name: text
+                    widget: string
+                  - label: Link
+                    name: link
+                    widget: string
+  - name: menus
+    label: Menus
     editor:
       preview: false
     files:
-      - label: "Main"
-        name: "main"
-        file: "_data/menus.yml"
+      - label: Main
+        name: main
+        file: _data/menus.yml
         fields:
-          - label: "Main Menu Items"
-            name: "main"
-            widget: "list"
+          - label: Main Menu Items
+            name: main
+            widget: list
             fields:
-              - { label: Identifier, name: identifier, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-          - label: "Social Menu Items"
-            name: "social"
-            widget: "list"
+              - label: Identifier
+                name: identifier
+                widget: string
+              - label: Title
+                name: title
+                widget: string
+              - label: URL
+                name: url
+                widget: string
+          - label: Social Menu Items
+            name: social
+            widget: list
             fields:
-              - { label: Identifier, name: identifier, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-          - label: "Footer Menu Items"
-            name: "footer"
-            widget: "list"
+              - label: Identifier
+                name: identifier
+                widget: string
+              - label: Title
+                name: title
+                widget: string
+              - label: URL
+                name: url
+                widget: string
+          - label: Footer Menu Items
+            name: footer
+            widget: list
             fields:
-              - { label: Identifier, name: identifier, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
+              - label: Identifier
+                name: identifier
+                widget: string
+              - label: Title
+                name: title
+                widget: string
+              - label: URL
+                name: url
+                widget: string
