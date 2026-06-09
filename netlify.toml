@@ -1,0 +1,5 @@
+[build]
+  command = "jekyll build && npm run workbox generateSW workbox-config.js"
+
+[build.environment]
+  RUBY_VERSION = "4.0.5"
