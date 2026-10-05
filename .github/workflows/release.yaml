@@ -6,13 +6,13 @@ on:
 
 jobs:
   release:
-    uses: "Mosher-Labs/.github/.github/workflows/release.yml@ef07cf67ff3b59d701ca4ebb5670f8579b0b0303" # v0.10.33
+    uses: "Mosher-Labs/.github/.github/workflows/release.yml@39dc1e003e0c99ee009eecca4773bb6aa4935ce2" # v0.11.1
     permissions:
       contents: write
 
   heimdallr:
     needs: release
-    uses: "Mosher-Labs/.github/.github/workflows/heimdallr.yml@ef07cf67ff3b59d701ca4ebb5670f8579b0b0303" # v0.10.33
+    uses: "Mosher-Labs/.github/.github/workflows/heimdallr.yml@39dc1e003e0c99ee009eecca4773bb6aa4935ce2" # v0.11.1
     permissions: read-all
     secrets: inherit
     with:
